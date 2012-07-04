@@ -4,7 +4,7 @@
 
 	.panel .panel-header {  padding-left:10px; }
 	.panel .panel-header .inner { padding-right:10px; }
-	.panel .panel-header .inner h3 { margin:0; padding:10px 10px; color:#343434; }
+	.panel .panel-header .inner h3 { margin:0; padding:10px 10px; color:#343434; color:red !important;}
 	.panel .panel-content { padding:12px 20px 14px; background:#fff; }
 	.panel .panel-content .inner { min-height:30px; height:auto!important; height:30px; }
 
