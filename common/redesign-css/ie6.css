@@ -1,0 +1,88 @@
+
+* html #leftwrap{
+	 margin-top:155px;
+	}
+* html .our-product-bg{
+height:205px;
+}
+* html .accessories, * html .mobile-downloads{
+margin-top:190px;
+}
+* html .panel-stripe{
+margin:-12px 0 0 0;
+}
+* html .mobile-downloads-holder, * html .accessories-holder {
+margin-top:-10px;
+padding-top:10px;
+}
+/* PNG fix for ie6 */
+* html img, /*png fix for <img> */
+* html .png{
+behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+this.src = "../../common/redesign-img/panels/blank.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+this.runtimeStyle.backgroundImage = "none")), this.pngSet=true)
+);
+}
+* html .mbb-image, * html .sim-image, * html .accessories-image, * html .mobile-downloads-image{
+width:80px;
+margin-left:210px;
+}
+* html .mbb-image, * html .sim-image{
+margin-left:230px;
+top:20px;
+width:95px;
+}
+* html .accessories-image{
+margin-left:200px;
+width:95px;
+}
+* html .mobile-downloads-image{
+margin-left:240px;
+}
+
+/* panel png/gif replacements */
+.panel-petrol .panel-header { background:url(../../common/redesign-img/panels/bg_panels.gif) 0 0 no-repeat; }
+.panel-petrol .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.gif) 100% -100px no-repeat; }
+.panel-petrol .panel-header .inner h3 { background:#408f9a url(../../common/redesign-img/panels/bg_panels.gif) 0 -200px repeat-x;  }
+.panel-magenta .panel-header { background:url(../../common/redesign-img/panels/bg_panels.gif) 0 -300px no-repeat; }
+.panel-magenta .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.gif) 100% -400px no-repeat; }
+.panel-magenta .panel-header .inner h3 { background:#e20074 url(../../common/redesign-img/panels/bg_panels.gif) 0 -500px repeat-x;  }
+.panel-green .panel-header { background:url(../../common/redesign-img/panels/bg_panels.gif) 0 -600px no-repeat; }
+.panel-green .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.gif) 100% -700px no-repeat; }
+.panel-green .panel-header .inner h3 { background:#839a00 url(../../common/redesign-img/panels/bg_panels.gif) 0 -800px repeat-x;  }
+.panel-grey-magenta .panel-header, 
+.panel-grey-petrol .panel-header, 
+.panel-grey-green .panel-header { background:url(../../common/redesign-img/panels/bg_panels.gif) 0 -900px no-repeat; }
+.panel-grey-magenta .panel-header .inner, 
+.panel-grey-petrol .panel-header .inner, 
+.panel-grey-green .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.gif) 100% -1000px no-repeat; }
+.panel-grey-magenta .panel-header .inner h3, 
+.panel-grey-petrol .panel-header .inner h3, 
+.panel-grey-green .panel-header .inner h3 { background:#eee url(../../common/redesign-img/panels/bg_panels.gif) 0 -1100px repeat-x; }
+.panel-white .panel-header { background:url(../../common/redesign-img/panels/bg_panels.gif) 0 -1500px no-repeat; }
+.panel-white .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.gif) 100% -1600px no-repeat; }
+.panel-white .panel-header .inner h3 { background:#fff url(../../common/redesign-img/panels/bg_panels.gif) 0 -1700px repeat-x; }
+.landing-panels .panel-header { background:url(../../common/redesign-img/panels/bg_panels.gif) 0 -1100px no-repeat; }
+.landing-panels .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.gif) 100% -1100px no-repeat; }
+.landing-panels .panel-header .inner h3 { background:#eee url(../../common/redesign-img/panels/bg_panels.gif) 0 -1100px repeat-x;  }
+.landing-panels .first .panel-header { background:url(../../common/redesign-img/panels/bg_panels.gif) 0 -900px no-repeat; } 
+.landing-panels .last .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.gif) 100% -1000px no-repeat; }
+.panel-grey-magenta-border .panel-header,
+.panel-grey-petrol-border .panel-header,
+.panel-grey-green-border .panel-header { background:url(../../common/redesign-img/panels/bg_panels.gif) 0 -1200px no-repeat; }
+.panel-grey-magenta-border .panel-header .inner,
+.panel-grey-petrol-border .panel-header .inner,
+.panel-grey-green-border .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.gif) 100% -1300px no-repeat; }
+.panel-grey-magenta-border .panel-header .inner h3,
+.panel-grey-petrol-border .panel-header .inner h3,
+.panel-grey-green-border .panel-header .inner h3 { background:#eee url(../../common/redesign-img/panels/bg_panels.gif) 0 -1400px repeat-x;  }
+.panel-white-border .panel-header { background:url(../../common/redesign-img/panels/bg_panels.gif) 0 -1800px no-repeat; }
+.panel-white-border .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.gif) 100% -1900px no-repeat; }
+.panel-white-border .panel-header .inner h3 { background:#fff url(../../common/redesign-img/panels/bg_panels.gif) 0 -2000px repeat-x; }
+.panel-noheader { background:url(../../common/redesign-img/panels/bg_form_panel_v.gif) 100% 0 no-repeat; }
+.panel-noheader .panel-noheader-tl { background:url(../../common/redesign-img/panels/bg_form_panel_h.gif) 0 0 no-repeat; }
+.panel-noheader-border { background:url(../../common/redesign-img/panels/bg_form_panel_v_border.gif) 100% 0 no-repeat; }
+.panel-noheader-border .panel-noheader-tl { background:url(../../common/redesign-img/panels/bg_form_panel_h_border.gif) 0 0 no-repeat; }
+.form-panel, .panel-content { height:1%; }

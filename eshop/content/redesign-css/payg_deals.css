@@ -1,0 +1,153 @@
+#container{ background:url(../../content/common/redesign-img/deals/payg-deals/deals-landing/bg_greyfade_payg.gif) 0 100% repeat-x; } 
+
+.hero-bg {
+	background: url(../../content/common/redesign-img/deals/payg-deals/deals-landing/bg_payg_hero.jpg.jpg) 0 0 no-repeat;
+	min-height:620px;
+	height:auto!important;
+	height:620px;
+}
+
+.right-column, 
+.left-column{ float:left; padding:0; }
+
+.phone-choices { float:left; width:160px; margin-right:25px; overflow:hidden; }
+.phone-choices.last { width:160px; margin-right:0;}
+h4{
+	font-size:1.4em;
+	margin:0 0 5px;
+	}
+
+.panel-price {
+	color:#E20074;
+	font-size:1.8em;
+	line-height:1em;
+}
+
+.hero-bg .block-container {
+	padding:40px 0 0 20px; 
+	float:left; padding-left:20px;
+}
+
+.hero-bg .sale-spacer {
+	padding-top:16px;
+}
+/* [[ Start Deal 2 ]] */
+.deal2 {
+	background:url(../../content/common/redesign-img/deals/payg-deals/deals-landing/bg_deal2.jpg) 0 100% no-repeat; 
+	min-height:225px; 
+	height:auto!important; 
+	height:225px;
+	padding-left:87px;
+}
+
+.deal2 .promo-text {
+	color:#333;
+}
+#rd-content .deal2 h2 { margin:0 0 6px 0; padding-top:6px; }
+#rd-content .deal2 h3 { margin:0 0 6px 0; }
+#rd-content .deal2 ul { margin-left:0;}
+
+/* [[ End Deal 2 ]] */
+
+/* [[ Start Deal 3 ]] */
+.deal3 {
+	background:url(../../content/common/redesign-img/deals/payg-deals/deals-landing/bg_deal3.jpg) 0 100% no-repeat; 
+	min-height:267px; 
+	height:auto!important; 
+	height:267px;
+	/*padding-left:87px;*/
+}
+
+.deal3 .phone-choices {
+	width:114px;
+	margin-right:11px;
+}
+
+.deal3 .phone-choices.last {
+	width:107px;
+	margin-right:0;
+}
+
+
+.deal3 h3 { float:left; width:180px; font-size:1.6em; font-weight:bold; padding:210px 60px 0 25px; margin:0;}
+.deal3 h4{ color:#333;}
+/* [[ End Deal 4 ]] */
+
+/* [[ Start Deal 4 ]] */
+.deal4 {
+	background:url(../../content/common/redesign-img/deals/payg-deals/deals-landing/bg_deal4.jpg) 0 100% no-repeat; 
+	min-height:235px; 
+	height:auto!important; 
+	height:235px;
+	padding-left:87px;
+}
+
+.deal4 .block-container {
+	padding:10px 10px 0 0; float:right;
+}
+/* [[ End Deal 4 ]] */
+
+/* [[ Start Deal 5 ]] */
+.deal5 {
+	background:url(../../content/common/redesign-img/deals/payg-deals/deals-landing/bg_deal5.jpg) 0 100% no-repeat; 
+	min-height:225px; 
+	height:auto!important; 
+	height:225px;
+	padding-left:87px;
+}
+#rd-content .deal5 h2 { margin:0 0 6px 0; padding-top:5px; font-size:1.9em; }
+#rd-content .deal5 h3 { margin:0 0 6px 0; }
+#rd-content .deal5 ul { margin-left:0; width:150px;}
+#rd-content .deal5 ul.dotted-border-bottom li {background:transparent url(../../../common/redesign-img/icons/bullet_magenta.gif) no-repeat scroll 0 0.5em; }
+#rd-content .deal5 .highlight span { font-size:1.8em;}
+#rd-content .deal5 p.intro-text { margin-bottom:6px;}
+/* [[ End Deal 5 ]] */
+
+/* [[ Start Deal 6 ]] */
+.deal6 {
+	background:url(../../content/common/redesign-img/deals/payg-deals/deals-landing/bg_deal6.jpg) 0 100% no-repeat; 
+	min-height:225px; 
+	height:auto!important; 
+	height:225px;
+}	
+
+.deal6 h2 { padding:20px 0 0 87px; font-size:1.9em; margin-top:0; }
+.deal6 .deal6phone { width:265px; float:left; display:inline; }
+.deal6 .deal6phone .img { float:left; margin-right:8px; }
+.deal6 .deal6phone .info { float:left; width:150px; }
+.deal6 .deal6phone .info h3 { color:#333; font-size:1.6em; font-weight:bold; margin-top:0; }
+.deal6 .first-phone { padding-left:134px; }
+#rd-content .deal6 .highlight span { font-size:1.8em;}	
+
+
+/* [[ End Deal 6 ]] */
+
+
+/* [[ Start Deal 7 ]] */
+.deal7 {
+	background:url(../../content/common/redesign-img/deals/payg-deals/deals-landing/bg_deal7.jpg) 0 100% no-repeat; 
+	min-height:225px; 
+	height:auto!important; 
+	height:225px;
+	padding-left:87px;
+}
+#rd-content .deal7 h2 { margin:0 0 6px 0; padding-top:15px; font-size:1.9em; }
+#rd-content .deal7 h3 { margin:0 0 6px 0; }
+#rd-content .deal7 ul { margin-left:0;}
+#rd-content .deal7 .highlight span { font-size:1.8em;}
+
+/* [[ End Deal 7 ]] */
+
+
+/* Transparent header panel */	
+	.block-container{position:relative; width:376px; height:19em;}
+	.transparent-block{opacity:0.75; filter:alpha(opacity=75); background:#e20074; width:376px; position:absolute; height:19em;}
+	.full{color:#FFF !important; width:336px; position:absolute; height:15em; padding:20px;}
+	.full h2, .full h3, .full p{margin:0 0 10px 0 !important; color:#FFFFFF;} 
+	.promo-box h2{font-size:1.6em !important; margin:0 !important;}
+	.promo-box h3{font-size:2.2em !important;}
+
+	
+#rd-content .primary-link.margin-top10{
+	_margin-top:0px;
+}

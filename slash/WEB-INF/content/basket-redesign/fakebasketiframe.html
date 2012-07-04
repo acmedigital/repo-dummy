@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link href="../../../../common/redesign-css/templates.css" rel="stylesheet" type="text/css" />
+		<link href="../../../../common/redesign-css/buttons.css" rel="stylesheet" type="text/css" />
+		<link href="../../../../common/redesign-css/typography.css" rel="stylesheet" type="text/css" />
+		<link href="../../../../common/redesign-css/panels.css" rel="stylesheet" type="text/css" />
+		<link href="../../../../common/redesign-css/ui-components.css" rel="stylesheet" type="text/css" />
+	
+		<script type="text/javascript" src="../../../../common/redesign-js/lib/mootools-1.2.3-core-nc.js"></script>
+		<script type="text/javascript" src="../../../../common/redesign-js/lib/mootools-1.2.3.1-more.js"></script>
+		<script type="text/javascript" src="../../../../common/redesign-js/addons/mootools.basket.js"></script>
+		<script type="text/javascript" src="../../../../common/redesign-js/init/init.basket.js"></script>
+		
+		<style type="text/css">
+			body{text-align:left; width:auto !important;}
+		/*	h1{padding:0; margin:0;}
+			#rightbar{ margin-left:0 !important; margin-top:0 !important; padding:0 !important; width:243px;}*/
+		</style>
+		
+				
+<style type="text/css">
+
+.package {
+	/*width:160px;*/
+	margin:0 0 0 0;
+	/*text-align:center;*/
+	padding:0 20px;
+	padding-bottom:10px;
+	width:203px;
+	border-bottom:2px #ccc solid; 
+	}
+	
+	.package-border {
+		border-top:2px #ccc solid;
+	}
+	
+	#rightbar .package h3.section {
+		margin-top:0px;
+		margin-bottom:9px;
+		padding-top:10px;
+	}
+	
+	#rightbar {
+		width:245px;
+	}
+	
+	#rightbar h3 {
+		color:#2D757E;
+		font-size:1.2em;	
+	}
+	
+	#rightbar h3 a.remove {
+		display:block;
+		float:right;
+		font-size:.9em;
+		font-weight:normal;
+		*margin-top:-15px;
+	}
+	
+	#rightbar .package .block {
+		margin-bottom:10px;
+	}
+	
+	#rightbar .package .block h3.pkg-description {
+		color:#333;
+		font-weight:bold;
+		font-size:1.1em;
+		margin:0 0 3px 0;
+	}
+	
+	#rightbar .package .block h3.pkg-description span {
+		font-weight:normal; 
+		padding-left:5px;
+	}
+	
+	#rightbar .package .block h3.pkg-description span.add-to-package {
+		display:block;
+		padding-left:12px;
+	}
+	
+	#rightbar .package-incomplete,
+	#rightbar .package-incomplete a { color:#ed1c24!important;}
+	
+	#rightbar .panel table td {
+		padding-left:13px;
+		padding-bottom:2px;
+	}
+	
+	#rightbar .panel table td.cost {
+		text-align:right;
+		font-weight:bold;
+	}
+	
+	#rightbar .panel table td.cost.discount {
+		color:#2D757E;
+	}
+
+	
+	.delivery-details{
+		background:#f2f2f2; 
+		border-bottom:none;
+		/*border-top:2px #ccc solid; */
+		padding-bottom:15px;
+		margin-bottom:0;
+	}
+	
+	#rd-content .delivery-details table td,
+	#rd-content .package-total table td {
+		padding-left:0;
+		font-weight:bold;
+		font-size:1.2em;
+	}
+	
+	#rd-content .delivery-details table td.cost {
+		color:#e20074;
+	}
+	
+	.buttons-foot {
+		background-color:#f2f2f2;
+		padding-bottom:10px;
+		padding-left:20px;
+	}
+	
+	#rightbar .buttons-foot p {
+		font-size:1.1em;
+	}
+	
+	#rightbar .buttons-foot a.rdbtn {
+		margin-bottom:15px;
+	}
+	
+	.package-total {
+		background:#f2f2f2; border-bottom:2px #ccc solid; padding-top:10px; padding-bottom:10px;
+	}
+	
+	#rd-content .package-total table td.cost {
+		color:#2d757e;
+	}
+	
+	#rightbar p.package-error {
+		color:#ed1c24;
+		font-size:1.1em;
+		margin-bottom:9px;
+	}
+	
+	.delivery-charge {
+		margin-bottom:10px; border-bottom:1px #ccc dotted;
+	}
+	
+	#rightbar .delivery-charge tr td {
+		padding-bottom:10px;
+	}
+	
+	#rightbar .panel-basket .inner.basket-inner {
+		margin:0;padding:0;
+	}
+</style>
+		
+	</head>
+	<body>
+	<div id="rd-content">
+	
+	<div id="rightbar" style="margin:0;">
+				<div class="panel panel-grey-magenta-border panel-border panel-basket" style="border: 0; margin-bottom:0;">
+					
+			
+					<div class="panel-content" style="border-top:0;">
+						<div class="inner basket-inner">
+							<div class="package">
+								<div class="block">
+									<h3 class="section current">Package 1<a href="/shop/mobile-phone-shop/" target="_parent" onclick="setCookieToRemovePackage(1, false)" class="remove">x Remove</a></h3>
+								</div>
+								<div class="block ">
+									<h3 class="pkg-description">1. Phone<span>| <a href="#">change</a></span></h3>
+									<table summary="your product description">
+										<tr>
+											<td>Nokia 5800 Chrome</td>
+											<td class="cost">&pound;97.87</td>
+										</tr>
+									</table>
+								</div>
+								<div class="block ">
+									<h3 class="pkg-description">2. Your price plan<span>| <a href="#">change</a></span></h3>			
+									<table summary="your product description">
+										<tr>
+											<td>Combi 15 (18 months)</td>
+											<td class="cost">&pound;13.50</td>
+										</tr>
+										<tr>
+											<td>MRC discount 1</td>
+											<td class="cost discount">-&pound;5.00</td>
+										</tr>
+										<tr>
+											<td>MRC discount 2</td>
+											<td class="cost discount">-&pound;1.50</td>
+										</tr>
+									</table>
+								</div>
+								<div class="block">
+									<h3 class="pkg-description">3. Optional extras<span class="add-to-package"><a href="#">Add extras</a></span></h3>
+								</div>
+							</div><!-- end package -->
+							
+							<div class="package delivery-details">
+								<h3 class="section">Total</h3>
+								<table class="delivery-charge">
+									<tr summary="Your delivery cost">
+										<td>Delivery charges</td>
+										<td class="cost">Free</td>
+									</tr>
+								</table>	
+								
+								<table summary="Your delivery cost">
+									<tr>
+										<td>To pay now</td>
+										<td class="cost">&pound;24.99</td>
+									</tr>
+									<tr>
+										<td>To pay monthly</td>
+										<td class="cost">&pound;43.50</td>
+									</tr>
+								</table>	
+							
+							</div>
+							
+							<div class="buttons-foot">
+								<a href="#" class="rdbtn btn-magenta">
+									<span class="btn-corner-br"><span class="btn-corner-bl"><span class="btn-corner-tr"><span class="btn-corner-tl">
+										<span class="padding">View detailed basket and checkout</span>
+									</span></span></span></span>
+								</a>
+								<div class="clear"></div>
+								<p><a href="#">x Empty basket</a></p>
+								
+								<a href="#" id="close-btn">Close</a>
+							
+							</div>
+					</div>
+				</div> <!-- end panel content -->
+			</div>
+			</div> <!-- end rightbar -->
+	
+	
+
+		</div> <!-- end rd-content -->
+	</body>
+</html>

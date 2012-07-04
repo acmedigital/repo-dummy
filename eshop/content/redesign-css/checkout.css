@@ -1,0 +1,145 @@
+.breadcrumb{margin:0 !important; float:left !important; border-bottom:0 none; width:auto !important;}
+.back-btn{float:right;}
+
+
+#rd-content select.width-50 {width:65px !important;}
+* html #rd-content select.width-50{width:63px !important;}
+
+.clear{height:0; overflow:hidden; clear:both; margin:0 !important; padding:0 !important;}
+
+.form select, 
+.form input, 
+.form textarea {padding:1px 2px; border:1px solid #B8B8B8; font-family:Arial, Verdana, sans-serif;}
+.form select {padding:0;}
+
+
+.undecor{border:0 none !important;}
+/* Labels
+---------------------------------------------- */
+
+
+.form fieldset.label-bold label {font-weight:bold;}
+.form fieldset br{clear:both; }
+.form fieldset label {width:100%;}
+.form fieldset label span.label-note{font-size:.9em;font-weight:normal;}
+
+.form-collection { background:#F2F2F2; margin:2px 0; width:760px !important;}
+
+* html .form .row {padding-bottom:6px; padd\ing-bottom:5px;}
+
+.form .row A {text-decoration:underline}
+.form .undecor, .form .check {border:none;}
+.form span.field-note {	font-size:1.1em; margin-left:150px;}
+.form .row .width-auto {width:auto !important;}
+
+/* Inner divs
+---------------------------------------------- */
+.form .row div {float:left;	display:inline;	padding:4px 0;  /*width:100%;*/ /* for opera 7 */}
+.form .row select,
+.form .row input,
+.form .row textarea,
+.form .row label { float:left; margin-right:5px; width:200px; display:inline;  font-size:1.2em!important;}	
+* html .form .row select,
+* html .form .row input,
+* html .form .row textarea {margin-right:8px; font-size:1.2em;}
+.form .row select option {padding-right:4px;}
+.form .row label {position:relative;  width:230px;  font-size:1.2em;}
+.form .row input.check {border:none;}
+* HTML .form .row input.check {position:relative; left:-4px; margin-right:-2px;}
+
+.form .row .message-note {color:#F00; float:right; font-size:1.2em; width:240px; font-weight:bold;}
+
+.button-container{margin:10px 0 20px 0; float:right; display:inline; }
+.button-container span.rdbtn, .button-container a.rdbtn{float:right;}
+
+#rd-content form .error-arrow {background:transparent url(/common/redesign-img/arrows/error_arrow.png) no-repeat scroll right center; color:#FF0000;}
+#rd-content form{margin:0; padding:0;}
+
+.ident-number{float:right; width:350px; display:inline; margin:0 0 10px 0;}
+.ident-number img {float:left; margin:3px 10px 0 0; display:inline;}
+.ident-number span.first-cell {color:#999999; font-size:1.1em; font-weight:normal; padding:2px 0 2px 3px;}
+.ident-number span {background-color:#FFFFFF; border:1px solid #CCCCCC; color:#E20074; float:left; font-size:1.1em; font-weight:bold; margin-right:2px; padding:2px 2px 2px 3px; display:inline;}
+
+.table-main-qas{ margin:10px 0 0 0;}
+.table-main-qas tr td {padding:0 20px 7px 0;}
+.table-main-qas .qas-table-label{width:274px; text-align:right;  font-weight:bold; font-size:1.1em; color:#333333;}
+.table-main-qas tr td input{font-size:1.2em; color:#333333; width:200px;}
+td.qas-label{width:235px; text-align:right; font-size:1.1em; color:#333333;}
+
+.card-links p {float:left; margin-right:8px; text-align:center; display:inline;}
+
+h4{font-size:1.6em; margin:0 0 10px 0; padding:0;}
+h5{font-size:1.2em; margin:10px 0 10px 0; padding:0; color:#2D757E; font-weight:bold;}
+
+.form-value {display:inline; float:left; font-size:1.2em; margin:2px 0 0;}
+
+/* System error message
+----------------------------------------------- */
+.warning,
+.warning.show {
+	margin-bottom:24px;
+	padding:8px 12px 10px 50px;
+	border:1px solid #e20074;
+	background:url(/common/img/icons/warning.gif) 12px 6px no-repeat;
+	font-size:1.2em;
+	color:#e20074;
+	min-height:20px;
+	}
+* html .warning, * html .warning.show {
+height:20px
+	}
+.warning.hide {
+	display:none;
+	}
+#content .warning ul {
+	margin-top:10px;
+	}
+#content .warning li,
+#content .warning li.show-error {
+	font-size:1em;
+	}
+#content .warning li.hide-error {
+	display:none;
+	}
+
+.warning-large {
+	padding-left: 70px;	
+	width:500px;
+	min-height:90px;
+	height: auto;
+	border:1px solid #E20074;
+	background: url(/common/img/icons/warning_large.gif) 7px 17px no-repeat;
+	}
+	* HTML .warning-large {
+		width: 572px;
+		w\idth: 500px;
+		height:90px;
+		}	
+	
+.warning-large .content {
+	float: left;
+	padding: 9px 18px 9px 9px;
+	width: 270px;
+	color:#E20074;
+	}
+	* HTML .warning-large .content {
+		width: 297px;
+		w\idth: 270px;
+		}
+.warning-large .content.large {
+	width: 360px;
+	}
+	* HTML .warning-large .content.large {
+		width: 387px;
+		w\idth: 360px;
+		}
+
+.warning-large .action {
+	float: left;
+	padding: 9px 18px 9px 9px;
+	width: 70px;
+	}
+	* HTML .warning-large .action {
+		width: 97px;
+		w\idth: 70px;
+		}	

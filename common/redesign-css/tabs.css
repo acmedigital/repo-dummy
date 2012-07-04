@@ -1,0 +1,35 @@
+/* Start Togglers */
+a.toggler{display:block; font-size:1.2em; background:url(../../common/redesign-img/tabs/toggler-sprite.gif) no-repeat left 2px; padding:0 0 0 15px; color:#000 !important; text-decoration:none !important;}
+a.toggler:hover{text-decoration:underline !important;}
+a.activestyle{background-position:left -36px !important; }
+
+div.onstyle{display:block !important;}
+div.offstyle{display:none;}
+/* End Togglers */
+
+
+/* Start Tabs */
+/* START Base tab CSS */
+ul.tabs{list-style-type:none; padding:0; margin:0 !important;}
+ul.tabs li{float:left; display:inline; height:25px; padding:0 0 0 6px; display:inline; margin:0 5px 0 0; cursor:pointer; background:url(../../common/redesign-img/tabs/tabs-sprite.gif) no-repeat top left !important;}
+ul.tabs a{display:inline; float:left; height:25px; padding:6px 10px 0 4px; text-decoration:none !important; color:#000 !important; font-size:1.2em; font-weight:bold; background:url(../../common/redesign-img/tabs/tabs-sprite.gif) no-repeat top right; width:auto;}
+li.activestyle a{color:#FFF !important;}
+
+* html ul.tabs li{height:19px;}
+* html ul.tabs li a{height:19px;}
+
+/* END Base tab CSS */
+
+/* START Magenta Tab styles */
+ul.tabs-magenta li.activestyle{background-position:left -50px !important;}
+ul.tabs-magenta li.activestyle a{background-position:right -50px;}
+.tabcontent-magenta{border-top:3px solid #e00073; margin:0px;}
+/* END Magenta Tab styles */
+
+/* START Green Tab styles */
+ul.tabs-green li.activestyle{background-position:left -100px !important;}
+ul.tabs-green li.activestyle a{background-position:right -100px;}
+.tabcontent-green{border-top:3px solid #7E9401; margin:0px;}
+/* END Green Tab styles */
+
+/* End tabs */

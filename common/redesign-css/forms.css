@@ -1,0 +1,502 @@
+/*GLOBAL*/
+.hidden {display:none;}
+
+#rd-content .width-20 {width:20px!important;}
+#rd-content .width-50 {width:50px!important;}
+#rd-content .width-60 {width:60px!important;}
+#rd-content .width-70 {width:70px!important;}
+#rd-content .width-80 {width:80px!important;}
+#rd-content .width-90 {width:90px!important;}
+#rd-content .width-100 {width:100px!important;}
+#rd-content .width-110 {width:110px!important;}
+#rd-content .width-120 {width:120px!important;}
+#rd-content .width-130 {width:130px!important;}
+#rd-content .width-140 {width:140px!important;}
+#rd-content .width-150 {width:150px!important;}
+
+
+/* LARGE #rd-content form */
+#rd-content form.large .form-item-collection, #rd-content form.large .grey-form-item-collection {width:100%;}
+#rd-content form.large .fields {width:420px;}
+#rd-content form.large .fieldset-intro {width:740px;}
+#rd-content form.large .help-area {width:200px;}
+#rd-content form.large .info-bubble-top {width:211px;}
+#rd-content form.large .info-bubble-centre {width:211px;}
+#rd-content form.large .info-bubble-bottom {width:211px;}
+#rd-content form.large label {width:200px;}
+#rd-content form.large input {width:180px;}
+#rd-content form.large textarea {width:180px;}
+#rd-content form.large select {width:185px;}
+/* #rd-content form.large .short-select {width:91px;}
+#rd-content form.large .short-text {width:87px;}
+#rd-content form.large .digit-box {width:17px;}
+#rd-content form.large .dob-day {width:50px;}
+#rd-content form.large .dob-month {width:70px;}
+#rd-content form.large .dob-year {width:60px;} */
+#rd-content form.large .alert-message-on {padding-left:228px;margin:0!important;}
+#rd-content form.large .alert-message-on p {margin:3px 0 5px 0!important;padding:0!important;}
+#rd-content form.large .postcode-section {width:720px;} /* This is mainly required as an IE6 fix */
+
+/* MEDIUM #rd-content form */
+#rd-content form.medium .fields {width:420px;}
+#rd-content form.medium .fieldset-intro {width:740px;}
+#rd-content form.medium .form-item-collection {width:740px;}
+#rd-content form.medium .help-area {width:260px;}
+#rd-content form.medium .info-bubble-top {width:211px;}
+#rd-content form.medium .info-bubble-centre {width:211px;}
+#rd-content form.medium .info-bubble-bottom {width:211px;}
+#rd-content form.medium label {width:140px;}
+#rd-content form.medium input {width:180px;}
+#rd-content form.medium textarea {width:180px;}
+#rd-content form.medium select {width:185px;}
+/*#rd-content form.medium .top-error {width:630px;}*/
+#rd-content form.medium .alert-message-on {padding-left:177px;}
+#rd-content form.medium .postcode-section {width:720px;} /* This is mainly required as an IE6 fix */
+
+
+
+/* #rd-content form element container */
+#rd-content form {
+	padding:20px 0 70px 0;
+}
+
+/* Container for left side labels and fields */
+#rd-content form .fields {
+	float:left;
+}
+
+/* Field and label #rd-content formatting */
+#rd-content form legend {
+	font-size:1.4em;
+	font-weight:bold;
+	color:#3a828c;
+	height:1.9em;
+	padding:10px 0 5px 0;
+}
+#rd-content form .main-title {
+	font-size:1.8em;
+	font-weight:bold;
+	color:#3a828c;
+	height:1.9em;
+	padding:10px 0 5px 0;
+}
+#rd-content form .fieldset-intro {
+	display:inline-block;
+	font-size:1.2em;
+	color:#000;
+	line-height:1.2em;
+	margin: 5px 0 15px 0;
+}
+#rd-content form .fieldset-intro span {
+	font-weight:bold;
+}
+#rd-content form .form-item-collection, #rd-content form .grey-form-item-collection
+ {
+	height:auto;
+	white-space:nowrap;
+	float:left;
+}
+#rd-content form .grey-form-item-collection
+ {
+	background:#eee;
+}
+#rd-content form .grey-form-item-collection ul {
+	font-size:1.1em;
+	margin:0;
+	padding:5px 0;
+}
+#rd-content form .form-item-collection ul {
+	font-size:1.1em;
+	margin:0;
+	padding:0;
+}
+#rd-content form li {
+	margin:.8em 0 0 0;
+	padding:0;
+	clear:both;
+	background:none;
+}
+#rd-content form table {
+	width:100%;
+}
+
+/* In#rd-content formation bubbles */
+
+#rd-content form .help-area {
+	float:left;
+	margin:5px 0 0 20px;
+}
+#rd-content form .info-bubble-top {
+	background:url(../redesign-img/panels/bg_info_bubble_top.gif) no-repeat;
+	display:block;
+	height:9px;
+	font-size:0;
+	width:211px;
+}
+#rd-content form .info-bubble-centre {
+	background:#fff url(../redesign-img/panels/bg_info_bubble_centre.gif) repeat-y;
+	display:block;
+	white-space:normal;
+	color:#666;
+	font-weight:bold;
+	width:211px;
+}
+#rd-content form .info-bubble-message {
+	background:url(../redesign-img/panels/bg_info_bubble_arrow.gif) no-repeat left top;
+	position: relative; 
+	left: -15px;
+	padding:0px 0px 0px 25px;
+}
+
+#rd-content form .info-bubble-message p {
+	line-height:1.1em;
+	padding:0;
+	margin:0;
+	display:inline;
+	font-weight:normal;
+	color:#666;
+}
+
+#rd-content form .info-bubble-bottom {
+	background:url(../redesign-img/panels/bg_info_bubble_bottom.gif) no-repeat;
+	display:block;
+	height:9px;
+	width:211px;
+}
+
+/* #rd-content form field components and variations */
+
+#rd-content form label {
+	float:left;
+	padding-right:17px;
+	padding-left:5px;
+	margin:2px .35em 0 0;
+	text-align:right;
+	font-weight:bold;
+	color:#333;
+	line-height:1.2em;
+	vertical-align:middle;
+	white-space:normal;
+}
+
+#rd-content form li p {
+	margin:0;
+	padding:0;
+	margin-top:1px;
+	line-height:1.2em;
+	vertical-align:middle;
+	float:left;
+}
+
+#rd-content form .mandatory {
+	margin-right:5px;
+	color:#069;
+	font-size:1.4em;
+	line-height:1em;
+}
+#rd-content form input {
+	border:1px solid #999;
+	font-family:arial,helvetica,sans-serif;
+	font-size:1em;
+	padding:2px;
+}
+#rd-content form input.checkbox {
+	border: none;
+	width: 15px;
+}
+#rd-content form p.tip {
+	font-size: 1em;
+	float: none;
+	white-space: normal;
+}
+#rd-content form.large p.tip {
+	padding-left: 227px;
+	width: 310px;
+}
+#rd-content form .btn-input input {width:auto;border:0;}
+
+#rd-content form li span {
+	line-height:1.6em;
+	vertical-align:center;
+	color:#333;
+}
+
+#rd-content form textarea {
+	font-family:Arial, Helvetica, sans-serif;
+	border:1px solid #999;
+	font-size:1em;
+	padding:2px;
+}
+#rd-content form select {
+	border:1px solid #999;
+	font-size:1em;
+	padding:1px;
+}
+#rd-content form .radio-buttons input {
+	width:auto;
+	border:none;
+}
+#rd-content form .radio-buttons span {
+	margin: 0 1.2em 0 .4em;
+	font-size:1.1em;
+}
+#rd-content form .check-boxes input {
+	width:auto;
+	border:none;
+}
+#rd-content form .check-boxes span {
+	margin: 0 1.2em 0 1em;
+	font-size:1.1em;
+}
+#rd-content form .grey-spacer {
+	background: transparent url(/common/redesign-img/panels/bg_dotted_border.gif) repeat-x scroll 0 100%;
+	/*border-bottom: 1px dotted #CCC;*/
+	padding:5px 0 0 0;
+	position:relative;
+}
+#rd-content form .white-spacer {
+	border-bottom: 1px solid #FFF;
+	padding:0;	
+}
+#rd-content form a:link, a:active {
+	color:#333;
+}
+#rd-content form a:hover, .registered-list a:active {
+	color:#e20074;
+	text-decoration:underline;
+}
+
+#rd-content form .direct-debit-digit {
+	margin:0 5px 10px 0;
+	float:left;
+	border:1px solid #999;
+	padding:2px;
+	width:1em;
+	text-align:center;
+	font-weight:bold;
+}
+
+/* Error & confirmation messages on page */
+
+#rd-content .alert-message {
+	width:auto;
+	font-weight:bold;
+	color:#CC0000;
+	clear:both;
+
+}
+
+#rd-content .top-error {
+	margin:10px 0;
+	border:5px solid #CC0000;
+	padding:10px 10px 10px 60px;
+	width:auto;
+	font-weight:bold;
+	color:#CC0000;
+	background:#f1f1f1 url(/common/redesign-img/icons/error_exclamation.gif) no-repeat 10px center;
+}
+#rd-content .top-error li {
+	padding:0;
+	margin:0;
+	list-style:none;
+	background:none;
+}
+
+#rd-content .top-error p {
+	font-size:1em;
+	padding:10px 0 0 0 ;	
+}
+
+#rd-content .top-confirm {
+	margin:20px 20px 20px 0;
+	border:5px solid #839a00;
+	padding:10px 10px 10px 60px;
+	width:auto;
+	color:#000;
+	background:#f1f1f1 url(/common/redesign-img/icons/confirm_tick.gif) no-repeat 10px center;
+}
+
+#rd-content .top-confirm li {
+	padding:0;
+	margin:0;
+	list-style:none;
+	background:none;
+}
+
+#rd-content .top-confirm p {
+	font-size:1em;
+	padding:10px 0 0 0 ;
+}
+
+#rd-content form .alert-message-on label {
+	display:none;
+}
+#rd-content form .alert-message-on p {
+	font-size:1em;
+	color:#CC0000;
+	font-weight:bold;
+	white-space:normal;
+}
+
+
+
+#rd-content form .alert-message-off {
+	display:none;
+}
+#rd-content form .error-highlighter {
+	color:#CC0000;
+	background:url(/common/redesign-img/arrows/error_arrow.gif) no-repeat right 3px;
+}
+
+/* Password strength Widget */
+
+#rd-content form .password-strength p {
+	font-size:1em;
+	font-weight:bold;
+}
+#rd-content form .password-strength-block-on {
+	float:left;
+	height:7px;
+	width:7px;
+	margin-right:3px;
+	background:#cc0066;
+}
+#rd-content form .password-strength-block-off {
+	float:left;
+	height:7px;
+	width:7px;
+	margin-right:3px;
+	background:#666;
+}
+#rd-content form .password-weak-text {
+	text-align:left;
+	float:left;
+}
+#rd-content form .password-strong-text {
+	text-align:right;
+	float:right;
+	margin-right:18px;
+	display:inline;
+}
+#rd-content form .field-sub-text {
+	text-align:left;
+	float:left;
+	margin-bottom:10px;
+}
+#rd-content form .post-field-message {
+	margin-left:10px;
+	background:url(/common/redesign-img/arrows/arrow_highlighter.gif)  no-repeat scroll left center;
+	padding-left:10px;
+}
+#rd-content form .form-note {
+	padding:15px 0;
+	margin:0 20px;
+	border-bottom:1px dotted #cccccc;
+}
+
+/* Fixes for radio buttons and checkboxes outside of the form container */
+
+#rd-content .check-box {width:2em!important;border:none;}
+#rd-content .radio-button {width:2em!important;border:none;}
+
+
+/* Buttons  -  I THINK THIS IS NOW REDUNDANT CODE - EDAN
+
+.buttonGroupRight {
+	display:block;
+	padding:20px 0px 20px 0px;
+	float:right;	
+	margin-bottom:40px;
+}
+
+.buttonGroupLeft {
+	display:block;
+	padding:20px 0px 20px 0px;
+	float:right;	
+	margin-bottom:40px;
+}
+
+.buttonGroupRight p {
+	float:left;	
+	margin:5px 10px 5px 0;
+}
+
+button { 
+	border:0px; 
+	cursor:pointer; 
+	font-weight:bold; 
+	padding:0 20px 0 0; 
+	text-align:center; 
+	font-size:1.1em;
+	overflow: visible;
+	margin-right:5px;
+}
+button span { 
+	font-family:Arial, Helvetica, sans-serif;
+	position:relative; 
+	display:block; 
+	white-space:nowrap; 
+	padding:0 0 0 20px;
+}
+
+button::-moz-focus-inner { 
+	border: 0;
+}
+button.primaryActionButton { 
+	background:url(../img/bg_button_primaryActionCap.png) right no-repeat; 
+	padding-right: 4px;
+	color:#FFF;	
+	height:25px;
+	line-height:25px;	
+}
+button.primaryActionButton span { 
+	background:url(../img/bg_button_primaryAction.png) no-repeat top left;
+	height:24px;
+	line-height:25px;
+	white-space:nowrap;
+	vertical-align:middle;
+	padding:0 3px 0 8px;
+}
+button.primaryActionButton:hover span {
+	text-decoration:underline;
+}
+
+button.secondaryActionButton { 
+  background:url(../img/bg_button_secondaryActionCap.png) right no-repeat; 
+	padding-right: 4px;
+	color:#FFF;	
+	height:25px;
+	line-height:25px;	
+}
+button.secondaryActionButton span { 
+	background:url(../img/bg_button_secondaryAction.png) no-repeat top left;
+	height:24px;
+	line-height:25px;
+	white-space:nowrap;
+	vertical-align:middle;
+	padding:0 3px 0 10px;
+}
+button.secondaryActionButton:hover span {
+	text-decoration:underline;
+}
+
+
+button.tertiaryActionButton { 
+  background:url(../img/bg_button_tertiaryActionCap.png) right no-repeat; 
+	padding-right: 4px;
+	color:#333;	
+	height:25px;
+	line-height:25px;	
+}
+button.tertiaryActionButton span { 
+	background:url(../img/bg_button_tertiaryAction.png) no-repeat top left;
+	height:24px;
+	line-height:25px;
+	white-space:nowrap;
+	vertical-align:middle;
+	padding:0 3px 0 10px;
+}
+button.tertiaryActionButton:hover span {
+	text-decoration:underline;
+}
+*/

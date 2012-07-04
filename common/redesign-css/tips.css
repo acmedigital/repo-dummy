@@ -1,0 +1,13 @@
+a.info{display:block; width:12px; height:12px; margin:15px; overflow:hidden; text-indent:-9999px; background:url(/common/redesign-img/tips/info.gif) no-repeat left 0;}
+a.info:hover{background-position:left -12px !important;}
+
+.standard-tip{ width:231px; text-align:left; font-size:1.1em; position:absolute; display:none; top:0; left:0; visibility:visible;}
+.standard-tip .tip-top{background:url(/common/redesign-img/tips/standard-tip.png) top left; padding:10px 10px 0;}
+.standard-tip .tip-top .title{font-weight:bold; color:#e20074;}
+.standard-tip .tip-bottom{background:url(/common/redesign-img/tips/standard-tip.png) bottom left; height:25px;}
+
+.extended-tip{ width:493px; text-align:left; font-size:1.1em; position:absolute; display:none; }
+.extended-tip .tip-top{background:url(/common/redesign-img/tips/extended-tip.png) top left; padding:10px 10px 0;}
+.extended-tip .tip-top .title{font-weight:bold; color:#e20074;}
+.extended-tip .tip-bottom{background:url(/common/redesign-img/tips/extended-tip.png) bottom left; height:25px;}
+.tip-content{display:none;}

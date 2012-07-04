@@ -1,0 +1,21 @@
+#rd-homepage .promo-container {
+	width:300px;
+	margin-left:20px;
+	}
+
+#rd-content #rd-homepage .landing-panels .span-1col {
+	margin-top:0;
+	}
+
+#rd-content #rd-homepage .span-1col {
+	margin-top:40px;
+	}
+	
+.page-bg{	
+	background:url(../../slash/content/redesign-img/bg_homepage.jpg) no-repeat 0 100%;
+	}
+
+
+#rd-content .three-col-fixed-height .span-1col {
+	padding-bottom:30px;
+	}

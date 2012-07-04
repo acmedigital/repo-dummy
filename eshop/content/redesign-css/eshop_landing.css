@@ -1,0 +1,19 @@
+#container{
+background:url(../redesign-img/gradients/shop_landing_bg.png) 0 100% repeat-x;
+/*width:960px;*/
+} 
+
+.hero-bg {
+	background: url(../../content/redesign-img/shop-landing/hero_panel_promo.jpg) 3px 0 no-repeat;
+	min-height:285px;
+	height:auto!important;
+	height:285px;
+}
+
+.right-column, 
+.left-column{
+float:left;
+padding:0;
+}
+
+

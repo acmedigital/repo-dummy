@@ -1,0 +1,19 @@
+body{text-align:left !important; width:100% !important; margin:0 !important; padding:0 !important;}
+#rd-wrapper{width:100% !important;}
+#logo-bar{width:100% !important; margin:0!important; height:75px;}
+#logo-bg{width:100% !important;}
+
+#rd-content{margin:10px; float:none!important; width:auto;}
+
+#footer{width:100%; border-top:2px solid #CCC; padding:10px 0 0 0; color:#777777; margin:20px 0 0 0;}
+#footer ul{float:right; margin:0 20px 0 0;}
+
+
+#util-links{float:right; margin:0 0 0 0;}
+#rd-content #content-action-icons{margin:0 0 0 0;}
+#rd-content #content-action-icons li {padding:2px 0 0 20px;}
+#rd-content #content-action-icons li.blank {background:none !important;}
+
+.span-2col{width:420px !important;}
+#rd-content form {padding:0 !important;}
+.button-container{margin:11px 0;}

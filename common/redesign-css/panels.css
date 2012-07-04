@@ -1,0 +1,311 @@
+
+
+/* Base panel styles */
+
+	.panel .panel-header {  padding-left:10px; }
+	.panel .panel-header .inner { padding-right:10px; }
+	.panel .panel-header .inner h3 { margin:0; padding:10px 10px; color:#343434; }
+	.panel .panel-content { padding:12px 20px 14px; background:#fff; }
+	.panel .panel-content .inner { min-height:30px; height:auto!important; height:30px; }
+
+
+/* Panel heights */
+
+	.panel-medium .panel-content .inner { min-height:95px; height:auto!important; height:95px; }
+	.panel-large .panel-content .inner { min-height:115px; height:auto!important; height:115px; }
+	.panel-xlarge .panel-content .inner { min-height:263px; height:auto!important; height:262px; }
+
+
+/* Default panel styles */
+	
+	/* petrol -  Primary */
+	.panel-petrol .panel-header { background:url(../../common/redesign-img/panels/bg_panels.png) 0 0 no-repeat; }
+	.panel-petrol .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.png) 100% -100px no-repeat; }
+	.panel-petrol .panel-header .inner  h3 { color:#fff; background:#408f9a url(../../common/redesign-img/panels/bg_panels.png) 0 -200px repeat-x;  }
+	
+	/* magenta - Promotional */
+	.panel-magenta .panel-header { background:url(../../common/redesign-img/panels/bg_panels.png) 0 -300px no-repeat; }
+	.panel-magenta .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.png) 100% -400px no-repeat; }
+	.panel-magenta .panel-header .inner h3 { color:#fff; background:#e20074 url(../../common/redesign-img/panels/bg_panels.png) 0 -500px repeat-x;  }
+	
+	/* green - My T-Mobile */
+	.panel-green .panel-header { background:url(../../common/redesign-img/panels/bg_panels.png) 0 -600px no-repeat; }
+	.panel-green .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.png) 100% -700px no-repeat; }
+	.panel-green .panel-header .inner h3 { color:#fff; background:#839a00 url(../../common/redesign-img/panels/bg_panels.png) 0 -800px repeat-x;  }
+	
+	/* dark grey */
+	.panel-dgrey .panel-header { background:url(../../common/redesign-img/panels/bg_panels.png) 0 -2100px no-repeat; }
+	.panel-dgrey .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.png) 100% -2200px no-repeat; }
+	.panel-dgrey .panel-header .inner h3 { color:#fff; background:#839a00 url(../../common/redesign-img/panels/bg_panels.png) 0 -2300px repeat-x;  }
+	
+	
+	/* grey panel defaults */
+	.panel-grey-magenta .panel-header, 
+	.panel-grey-petrol .panel-header, 
+	.panel-grey-green .panel-header { background:url(../../common/redesign-img/panels/bg_panels.png) 0 -900px no-repeat; }
+	.panel-grey-magenta .panel-header .inner, 
+	.panel-grey-petrol .panel-header .inner, 
+	.panel-grey-green .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.png) 100% -1000px no-repeat; }
+	.panel-grey-magenta .panel-header .inner h3, 
+	.panel-grey-petrol .panel-header .inner h3, 
+	.panel-grey-green .panel-header .inner h3 { background:#eee url(../../common/redesign-img/panels/bg_panels.png) 0 -1100px repeat-x; }
+	
+	/* grey panel petrol, magenta, green border colors */
+	.panel-grey-magenta .panel-content { border-top:2px solid #e20074; } 
+	.panel-grey-petrol .panel-content { border-top:2px solid #408f9a; }
+	.panel-grey-green .panel-content { border-top:2px solid #839a00; }
+	
+	/* white promo panel */
+	.panel-white .panel-header { background:url(../../common/redesign-img/panels/bg_panels.png) 0 -1500px no-repeat; }
+	.panel-white .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.png) 100% -1600px no-repeat; }
+	.panel-white .panel-header .inner h3 { padding:10px 10px 0; background:#fff url(../../common/redesign-img/panels/bg_panels.png) 0 -1700px repeat-x; }
+	.panel-white .panel-content { padding:4px 6px 6px; }
+	.panel-white .panel-content .inner { padding:0 14px 10px; background:url(../../common/redesign-img/panels/bg_panel_white.gif) 0 100% repeat-x; }
+
+
+/* Landing joined 3 column panel */
+
+	.landing-panels .span-1col { width:313px !important; padding:10px 0; }
+	.landing-panels .panel-header { background:url(../../common/redesign-img/panels/bg_panels.png) 0 -1100px no-repeat; }
+	.landing-panels .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.png) 100% -1100px no-repeat; }
+	.landing-panels .panel-header .inner h3 { background:#eee url(../../common/redesign-img/panels/bg_panels.png) 0 -1100px repeat-x;  }
+	.landing-panels .first { padding-left:10px; }
+	.landing-panels .first .panel-header { background:url(../../common/redesign-img/panels/bg_panels.png) 0 -900px no-repeat; } 
+	.landing-panels .last .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.png) 100% -1000px no-repeat; }
+
+
+/* Content panels */
+	
+	/* panel content container border */
+	.panel-border .panel-content { border-right:1px solid #ccc; border-bottom:1px solid #ccc; border-left:1px solid #ccc; }
+	
+	/* grey panels with border */
+	.panel-grey-magenta-border .panel-header,
+	.panel-grey-petrol-border .panel-header,
+	.panel-grey-green-border .panel-header { background:url(../../common/redesign-img/panels/bg_panels.png) 0 -1200px no-repeat; }
+	.panel-grey-magenta-border .panel-header .inner,
+	.panel-grey-petrol-border .panel-header .inner,
+	.panel-grey-green-border .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.png) 100% -1300px no-repeat; }
+	.panel-grey-magenta-border .panel-header .inner h3,
+	.panel-grey-petrol-border .panel-header .inner h3,
+	.panel-grey-green-border .panel-header .inner h3 { background:#eee url(../../common/redesign-img/panels/bg_panels.png) 0 -1400px repeat-x;  }
+	.panel-grey-magenta-border .panel-content { border-top:2px solid #e20074; } 
+	.panel-grey-petrol-border .panel-content { border-top:2px solid #408f9a; }
+	.panel-grey-green-border .panel-content { border-top:2px solid #839a00; }
+	
+	/* white promo with border */
+	.panel-white-border .panel-header { background:url(../../common/redesign-img/panels/bg_panels.png) 0 -1800px no-repeat; }
+	.panel-white-border .panel-header .inner { background:url(../../common/redesign-img/panels/bg_panels.png) 100% -1900px no-repeat; }
+	.panel-white-border .panel-header .inner h3 { color:#e10174; padding:10px 10px 0; background:#fff url(../../common/redesign-img/panels/bg_panels.png) 0 -2000px repeat-x; }
+	.panel-white-border .panel-content { border-right:1px solid #ccc; border-bottom:1px solid #ccc; border-left:1px solid #ccc; }
+	.panel-white-border .panel-content { padding:4px 6px 6px; }
+	.panel-white-border .panel-content .inner { padding:0 14px 10px; overflow:hidden; background:url(../../common/redesign-img/panels/bg_panel_white.gif) 0 100% repeat-x; }
+	
+	/* help/ask laura panel */
+	.panel-help .panel-header .inner h3 { padding:14px 10px 9px 35px; }
+	.panel-help .panel-content { padding:0 26px 12px 45px; background:#367a83; }
+	.panel-help .panel-content .inner { color:#fff; position:relative; }
+	.panel-help .panel-content p { color:#fff; }
+	.panel-help .panel-content img { position:absolute; bottom:-37px; left:-58px; }
+
+/* No header panel */
+
+	.panel-noheader { padding-right:5px; background:url(../../common/redesign-img/panels/bg_form_panel_v.png) 100% 0 no-repeat; }
+	.panel-noheader .panel-noheader-tl { padding-top:5px; background:url(../../common/redesign-img/panels/bg_form_panel_h.png) 0 0 no-repeat; }
+	.panel-noheader .panel-noheader-tl .panel-noheader-bl { padding:0 0 5px 5px; background:#fff; overflow-x:hidden; }
+	.panel-noheader .panel-noheader-tl .panel-noheader-bl .panel-noheader-center { padding:8px 15px 12px; background:url(../../common/redesign-img/panels/bg_form_panel_gradient.gif) 0 100% repeat-x; }
+	.panel-noheader .panel-noheader-tl .panel-noheader-bl .panel-noheader-center p {position:relative;}
+
+	.panel-noheader-border { padding-right:5px; border-bottom:1px solid #ccc; background:url(../../common/redesign-img/panels/bg_form_panel_v_border.png) 100% 0 no-repeat; }
+	.panel-noheader-border .panel-noheader-tl { padding-top:5px; background:url(../../common/redesign-img/panels/bg_form_panel_h_border.png) 0 0 no-repeat; }
+	.panel-noheader-border .panel-noheader-tl .panel-noheader-bl { padding:1px 1px 5px 5px; border-left:1px solid #ccc; background:#fff; }
+	.panel-noheader-border .panel-noheader-tl .panel-noheader-bl .panel-noheader-center { padding:8px 15px 12px; background:url(../../common/redesign-img/panels/bg_form_panel_gradient.gif) 0 100% repeat-x; }
+	.panel-noheader-border .panel-noheader-tl .panel-noheader-bl .panel-noheader-center p {position:relative;}
+
+/* Panel images (inset, overlap, offset) */
+
+	
+	.image-inset-small .panel-content, 
+	.image-offset-small .panel-content, 
+	.image-overlap-small .panel-content { padding-right:5px; }
+	
+	.image-inset-large .panel-content, 
+	.image-offset-large .panel-content, 
+	.image-overlap-large .panel-content { padding-right:10px; }
+	
+	.image-inset .panel-content .inner, 
+	.image-offset .panel-content .inner, 
+	.image-overlap .panel-content .inner { position:relative; padding-right:80px; }
+	
+	.image-inset-small .panel-content .inner, 
+	.image-offset-small .panel-content .inner, 
+	.image-overlap-small .panel-content .inner { position:relative; padding-right:70px; }
+	
+	.image-inset-large .panel-content .inner, 
+	.image-offset-large .panel-content .inner, 
+	.image-overlap-large .panel-content .inner { position:relative; padding-right:90px; }
+	
+	.image-inset .panel-content .inner img, 
+	.image-offset .panel-content .inner img, 
+	.image-overlap .panel-content .inner img, 
+	.image-inset-small .panel-content .inner img, 
+	.image-offset-small .panel-content .inner img, 
+	.image-overlap-small .panel-content .inner img, 
+	.image-inset-large .panel-content .inner img, 
+	.image-offset-large .panel-content .inner img, 
+	.image-overlap-large .panel-content .inner img { position:absolute; }
+	
+	.image-inset .panel-content .inner img, 
+	.image-inset .panel-content-small .inner img, 
+	.image-inset .panel-content-large .inner img {  top:0px; right:0; }
+	
+	.image-offset, 
+	.image-offset-small, 
+	.image-offset-large { margin-bottom:20px;}
+	
+	.image-offset .panel-content .inner img, 
+	.image-offset-small .panel-content .inner img, 
+	.image-offset-large .panel-content .inner img { bottom:-40px; right:0; }
+	
+	.image-overlap .panel-content .inner img, 
+	.image-overlap-small .panel-content .inner img, 
+	.image-overlap-large .panel-content .inner img { top:-30px; right:0; }
+
+	/* PNGFIX CONVERTS IMG TO SPAN - CATERING FOR THIS IN CSS*/
+	.image-inset .panel-content .inner span.fixedPng, 
+	.image-offset .panel-content .inner span.fixedPng, 
+	.image-overlap .panel-content .inner span.fixedPng, 
+	.image-inset-small .panel-content .inner span.fixedPng, 
+	.image-offset-small .panel-content .inner span.fixedPng, 
+	.image-overlap-small .panel-content .inner span.fixedPng, 
+	.image-inset-large .panel-content .inner span.fixedPng, 
+	.image-offset-large .panel-content .inner span.fixedPng, 
+	.image-overlap-large .panel-content .inner span.fixedPng { position:absolute; }
+	
+	.image-inset .panel-content .inner span.fixedPng, 
+	.image-inset .panel-content-small .inner span.fixedPng, 
+	.image-inset .panel-content-large .inner span.fixedPng {  top:0px; right:0; }
+	
+	.image-offset .panel-content .inner span.fixedPng, 
+	.image-offset-small .panel-content .inner span.fixedPng, 
+	.image-offset-large .panel-content .inner span.fixedPng { bottom:-40px; right:0; }
+	
+	.image-overlap .panel-content .inner span.fixedPng, 
+	.image-overlap-small .panel-content .inner span.fixedPng, 
+	.image-overlap-large .panel-content .inner span.fixedPng { top:-30px; right:0; }	 
+	
+
+/* Dotted borders */
+
+	.dotted-border-top { margin-top:12px; padding-top:12px; background:url(../../common/redesign-img/panels/bg_dotted_border.gif) repeat-x 0 0; }
+	.dotted-border-bottom { margin-bottom:12px; padding-bottom:12px; background:url(../../common/redesign-img/panels/bg_dotted_border.gif) repeat-x 0 100%; }
+
+
+/* Rightbar panels */
+
+	#rightbar .panel { margin-bottom:20px; }
+	#rightbar .panel .panel-header .inner h3 { padding:9px 6px; font-size:1.4em; font-weight:bold; }	
+	#rightbar .panel .panel-content { padding:12px 16px; }
+	#rightbar .panel .panel-content .inner { min-height:0; height:auto; }
+	
+	#rightbar .panel-grey-magenta-border .panel-header .inner h3 { color:#e20074; } 
+	#rightbar .panel-grey-petrol-border .panel-header .inner  h3 { color:#2d757e; } 
+	#rightbar .panel-grey-green-border .panel-header .inner h3 { color:#547700; }
+	
+	#rightbar .panel-magenta .panel-content,  
+	#rightbar .panel-petrol .panel-content, 
+	#rightbar .panel-green .panel-content { background:#eee; }
+	
+	#rightbar .panel-white .panel-content, 
+	#rightbar .panel-white-border .panel-content { padding:4px 5px 5px; }
+	#rightbar .panel-white .panel-content .inner, 
+	#rightbar .panel-white-border .panel-content .inner { padding:2px 11px 4px; }
+	#rightbar .panel-white .panel-header .inner h3, 
+	#rightbar .panel-white-border .panel-header .inner h3 { padding:12px 6px 0; color:#2d757e; }
+	
+	#rightbar .panel-mtm .panel-header .inner h3 { color:#547700; }
+	
+	#rightbar .image-offset .panel-content .inner { padding-right:0; }
+	
+	/* Rightbar basket  */
+	#rightbar .panel-basket h4,
+	#rightbar .panel-basket p { margin:0; font-size:1em; }
+	#rightbar .panel-basket .basket-empty {font-size: 1.2em; padding: 10px;}
+	#rightbar .panel-basket .panel-content { padding:0; }
+	#rightbar .panel-basket .panel-content .inner { padding-top:12px; }
+	#rightbar .panel-basket table { width:100%; }
+	#rightbar .panel-basket table td { font-size:1.1em; padding:0 0 10px 16px; vertical-align:top; }
+	#rightbar .panel-basket table td.price { padding:0 16px 10px 0; font-weight:bold; text-align:right; }
+	#rightbar .panel-basket table td.phone { text-align:center; }
+	#rightbar .panel-basket table td.package { padding:0 0 10px 0; }
+	#rightbar .panel-basket table td.dotted-border-top { margin:0; padding-top:10px; }
+	#rightbar .panel-basket table tr.total td { background:#f2f2f2; }
+	#rightbar .panel-basket table tr.total-border td { padding-top:10px; border-top:2px solid #ccc; background:#f2f2f2; }
+	
+	/* Rightbar basket  */
+	#rightbar .panel-best-selling .panel-content { padding-right:14px; } 
+	#rightbar .panel-best-selling h4 { margin:0 0 6px; color:#333; }
+	#rightbar .panel-best-selling p { margin:0; font-size:1.1em; }
+	#rightbar .panel-best-selling p strong.highlight-petrol { font-size:1.2em; }
+	#rightbar .panel-best-selling table td { padding-bottom:12px; vertical-align:top; }
+	#rightbar .panel-best-selling table td.phone { padding-right:12px; }
+	
+	
+	/* Rightbar help  */
+	#rightbar .panel-help .panel-header .inner h3 { padding:14px 10px 9px 20px; }
+	#rightbar .panel-help .panel-content { padding:0 26px 12px 30px; background:#387f88; }
+	#rightbar .panel-help .panel-content img { bottom:-32px; left:-41px; }
+	
+	/* Rightbar My T-Mobile Hello  */
+
+	#rightbar .panel-mtm-hello .panel-header .inner h3 { font-size:1.9em; font-weight:normal; }
+	#rightbar .panel-mtm-hello .panel-content { background:#fff; }
+	
+/* Backgrounds */
+
+	.bg-thumb .panel-content { background:url(../../common/redesign-img/panels/thumb.gif) 0 0; }
+	
+
+/* Callout */
+
+	#callout { border-bottom:2px solid #e20074; background:#fff url(../../common/redesign-img/panels/bg_callout.gif) 0 100% repeat-x; }
+	#callout ul.callout-plans { margin:0; }
+	#callout ul.callout-plans li { width:241px; float:left; padding:0 19px 0 0; background:url(../../common/redesign-img/panels/bg_callout_or.gif) 100% 42px no-repeat; }
+	#callout ul.callout-plans li.last { padding-right:0; background:none; }
+	#callout ul.callout-plans li h3 { margin:0; padding:16px 20px 6px; color:#e20074; font-size:1.2em; font-weight:bold; background:url(../../common/redesign-img/panels/bg_callout_bubble_t.gif) 0 0 no-repeat; }
+	#callout ul.callout-plans li.current h3 { color:#fff; background:url(../../common/redesign-img/panels/bg_callout_bubble_t_current.gif) 0 0 no-repeat; }
+	#callout ul.callout-plans li p { margin:0 0 4px 0; padding:0 20px 32px; font-size:1em; background:url(../../common/redesign-img/panels/bg_callout_bubble_b.gif) 0 100% no-repeat; }
+	#callout ul.callout-plans li.current p { color:#fff; background:url(../../common/redesign-img/panels/bg_callout_bubble_b_current.gif) 0 100% no-repeat; }
+	#callout ul.callout-plans li .tab { background:url(../../common/redesign-img/panels/bg_callout_tab_r.gif) 100% 0 no-repeat; }
+	#callout ul.callout-plans li.current .tab { background:url(../../common/redesign-img/panels/bg_callout_tab_r_current.gif) 100% 0 no-repeat; }
+	#callout ul.callout-plans li .tab a { padding:8px 0 6px 20px; display:block; font-size:1.2em; font-weight:bold; text-decoration:none; background:url(../../common/redesign-img/panels/bg_callout_tab_l.gif) 0 0 no-repeat; }
+	#callout ul.callout-plans li.current .tab a { color:#fff; background:url(../../common/redesign-img/panels/bg_callout_tab_l_current.gif) 0 0 no-repeat; }
+	
+	/* Callout PAYG */
+	#callout ul.callout-payg li { width:176px; background:none; }
+	#callout ul.callout-payg li h3 { background:url(../../common/redesign-img/panels/bg_callout_bubble_t_payg.gif) 0 0 no-repeat; }
+	#callout ul.callout-payg li.current h3 { background:url(../../common/redesign-img/panels/bg_callout_bubble_t_paygc.gif) 0 0 no-repeat; }
+	#callout ul.callout-payg li p { background:url(../../common/redesign-img/panels/bg_callout_bubble_b_payg.gif) 0 100% no-repeat; }
+	#callout ul.callout-payg li.current p { background:url(../../common/redesign-img/panels/bg_callout_bubble_b_paygc.gif) 0 100% no-repeat; }
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

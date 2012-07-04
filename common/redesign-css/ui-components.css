@@ -1,0 +1,232 @@
+/* Start Shop landing Carousel */
+#landing-carosel{width:981px; height:293px; position:relative; margin-bottom:10px;} 
+#image-container{overflow:hidden; width:981px; height:293px;}
+#image-container .container{display:block; width:981px; height:293px; position:absolute; top:0; left:0;}
+#image-container a img{vertical-align:bottom;}
+#bottom-bar{position:absolute; bottom:0; _bottom:-1px; left:20px; background:url(/../../common/redesign-img/carousel/carosel_linkbar.png) no-repeat top left; width:620px; height:35px; overflow:hidden; z-index:5;}
+#bottom-bar-links{float:left;}
+#bottom-bar-links a{position:absolute; left:20px; top:10px;}
+#bottom-bar-links a:hover{text-decoration:underline;}
+#bottom-bar-nav{float:right; padding:5px 5px 0 0;}
+#bottom-bar-nav a{background:#FFF; color:#000; display:inline; font-size:1.2em; padding:4px 8px; text-decoration:none; float:left; margin:0 0 0 5px;}
+#bottom-bar-nav a.active{background:#e00073; color:#FFF;}
+
+#rd-content #bottom-bar-links a.primary-link {
+	display:block;
+	width:350px;
+}
+
+#bottom-bar-nav #transport{width:61px; height:21px; padding:0 !important;}
+#bottom-bar-nav .pause{background:url(/common/redesign-img/carousel/transport-sprite.gif) top left;}
+#bottom-bar-nav .pause:hover{background-position:bottom left;}
+#bottom-bar-nav .play{background:url(/common/redesign-img/carousel/transport-sprite.gif) top right;}
+#bottom-bar-nav .play:hover{background-position:bottom right;}
+
+
+
+/* End Shop landing Carousel */		
+		
+/* Start Product Overview Carousel */
+#product-overview{position:relative; height:350px;}
+#product-overview-thumbs{  position:absolute; bottom:0; left:0;}
+#product-overview-thumbs span{float:left; display:inline; margin:0 5px 0 0; font-size:1.2em; padding:5px 0 0 0; font-weight:bold;}
+#product-overview-thumbs a{display:inline; float:left; margin:0 7px  9px 0; border:1px solid #c6c8ca;}
+#product-overview-thumbs a img{vertical-align:bottom;}
+#product-overview-thumbs .active{border:1px solid #e20074;}
+.hidden{display:none;}
+
+#product-overview-image{}
+#product-overview-image img{position:absolute; top:0; left:20px;}		
+/* End Product Overview Carousel */
+
+/* Start Expandable Blocks */
+
+/* Start Expandables Widths */
+.expandable-container{border-bottom:1px solid #AAA;}
+#lhn-3col-content-sidebar .span-1col .expandable-container{width:180px;}
+#lhn-3col-content-sidebar .span-2col .expandable-container{width:380px;}
+#lhn-3col-content-sidebar .span-3col .expandable-container{width:580px;}
+#lhn-2col-content-sidebar .span-1col .expandable-container{width:280px;}
+#lhn-2col-content-sidebar .span-2col .expandable-container{width:600px;}
+#orphan-1col-content-sidebar .span-1col .expandable-container{width:740px;}
+#lhn-1col-content .span-1col .expandable-container{width:760px;}
+#lhn-2col-content .span-1col .expandable-container{width:370px;}
+#lhn-2col-content .span-2col .expandable-container{width:760px;}
+#lhn-2col-content .span-4col .expandable-container{width:760px;}
+#lhn-3col-content .span-1col .expandable-container{width:240px;}
+#lhn-3col-content .span-2col .expandable-container{width:500px;}
+#lhn-3col-content .span-3col .expandable-container{width:760px;}
+#lhn-4col-content .span-1col .expandable-container{width:170px;}
+#lhn-4col-content .span-2col .expandable-container{width:370px;}
+#lhn-4col-content .span-3col .expandable-container{width:560px;}
+#lhn-4col-content .span-4col .expandable-container{width:760px;}
+#orphan-3col-content .span-1col .expandable-container{width:300px;}
+#orphan-3col-content .span-2col .expandable-container{width:620px;}
+#orphan-3col-content .span-3col .expandable-container{width:940px;}
+#orphan-4col-content .span-1col .expandable-container{width:220px;}
+#orphan-4col-content .span-2col .expandable-container{width:460px;}
+#orphan-4col-content .span-3col .expandable-container{width:700px;}
+#orphan-4col-content .span-4col .expandable-container{width:940px;}
+/* End Expandables Widths */
+
+.expandable-toggle{height:30px; background:#fff url(/common/redesign-img/expandables/expandables-sprite.gif) repeat-x bottom left; padding:0 0 0 10px; border-bottom:2px solid #CCC; cursor:pointer;}
+.expandable-toggle span{display:block; height:30px; background:#fff url(/common/redesign-img/expandables/expandables-sprite.gif) repeat-x bottom right;}
+.expand-first{background:#fff url(/common/redesign-img/expandables/expandables-sprite.gif) repeat-x top left;}
+.expand-first span{background:#fff url(/common/redesign-img/expandables/expandables-sprite.gif) repeat-x top right;}
+
+.expandable-toggle a{display:block; padding:6px 0 0 5px; margin:0 10px 0 0; text-decoration:none !important; color:#000 !important; font-size:1.4em; background:url(/common/redesign-img/expandables/link_bg.gif) no-repeat right 8px; }
+.expandable-toggle a:hover{text-decoration:underline !important;}
+.active-toggle{border-bottom:2px solid #e20074 !important;}
+.expandable-toggle.active-toggle a{background-position:right -42px !important;}
+.expandable-block{width:inherit;}
+.active-block{border-bottom:2px solid #CCC; }
+.expandable-content{border-left:1px solid #AAA; border-right:1px solid #AAA; border-bottom:1px solid #AAA; padding:10px;}
+
+.last{border-bottom:0 none!important;}
+.last .expandable-content{border-bottom:0 none!important;}
+/* End Expandable Blocks */
+
+/* Start Togglers */
+a.toggler{display:block; font-size:1.2em; background:url(/common/redesign-img/tabs/toggler-sprite.gif) no-repeat left 2px; padding:0 0 0 15px; color:#000 !important; text-decoration:none !important;}
+a.toggler:hover{text-decoration:underline !important;}
+a.activestyle{background-position:left -36px !important; }
+
+div.onstyle{display:block !important;}
+div.offstyle{display:none;}
+/* End Togglers */
+
+
+/* Start Togglers */
+a.toggler{display:block; font-size:1.2em; background:url(/common/redesign-img/tabs/toggler-sprite.gif) no-repeat left 2px; padding:0 0 0 15px; color:#000 !important; text-decoration:none !important;}
+a.toggler:hover{text-decoration:underline !important;}
+a.activestyle{background-position:left -36px !important; }
+
+div.onstyle{display:block !important;}
+div.offstyle{display:none;}
+/* End Togglers */
+
+
+/* Start Tabs */
+/* START Base tab CSS */
+ul.tabs{list-style-type:none; padding:0; margin:0 !important; height:25px;}
+ul.tabs li{float:left; display:inline; height:25px; padding:0 0 0 6px; display:inline; margin:0 5px 0 0 !important; cursor:pointer; background:url(/common/redesign-img/tabs/tabs-sprite.gif) no-repeat top left !important;}
+ul.tabs a{display:inline; float:left; height:25px; padding:6px 15px 0 4px; text-decoration:none !important; color:#000 !important; font-size:1.2em; font-weight:bold; background:url(/common/redesign-img/tabs/tabs-sprite.gif) no-repeat top right; width:auto !important;}
+li.activestyle a{color:#FFF !important;}
+#current a{color:#FFF !important;}
+
+* html ul.tabs li{height:19px;}
+* html ul.tabs li a{height:19px;}
+
+/* END Base tab CSS */
+
+/* START Magenta Tab styles */
+ul.tabs-magenta li.activestyle{background-position:left -50px !important;}
+ul.tabs-magenta li.activestyle a{background-position:right -50px;}
+.tabcontent-magenta{border-top:3px solid #e00073; margin:0px;}
+
+ul.tabs-magenta #current{background-position:left -50px !important;}
+ul.tabs-magenta #current a{background-position:right -50px;}
+.tabcontent-magenta{border-top:3px solid #e00073; margin:0px;}
+
+/* END Magenta Tab styles */
+
+/* START Green Tab styles */
+ul.tabs-green li.activestyle{background-position:left -100px !important;}
+ul.tabs-green li.activestyle a{background-position:right -100px;}
+.tabcontent-green{border-top:3px solid #7E9401; margin:0px;}
+/* END Green Tab styles */
+
+/* End tabs */
+
+/* Start Tips */
+a.info{display:block; width:12px; height:12px; overflow:hidden; text-indent:-9999px; background:url(../redesign-img/tips/info.gif) no-repeat left 0;}
+a.info:hover{background-position:left -12px !important;}
+
+.standard-tip{ width:231px; text-align:left; font-size:1.1em; position:absolute; display:none; top:0; left:0; visibility:visible;}
+.standard-tip .tip-top{background:url(../redesign-img/tips/standard-tip.png) top left; padding:10px 10px 0;}
+.standard-tip .tip-top .title{font-weight:bold; color:#e20074;}
+.standard-tip .tip-bottom{background:url(../redesign-img/tips/standard-tip.png) bottom left; height:25px;}
+
+.extended-tip{ width:493px; text-align:left; font-size:1.1em; position:absolute; display:none; }
+.extended-tip .tip-top{background:url(../redesign-img/tips/extended-tip.png) top left; padding:10px 10px 0;}
+.extended-tip .tip-top .title{font-weight:bold; color:#e20074;}
+.extended-tip .tip-bottom{background:url(../redesign-img/tips/extended-tip.png) bottom left; height:25px;}
+.tip-content{display:none;}
+
+.extended-tip .tip-top .content table{width:100% !important;}
+.extended-tip .tip-top .content p{margin:0 !important;}
+
+/* End Tips */
+
+
+/* Start Lightbox */
+#overlay{position: fixed; z-index:1200; top: 0px; left: 0px; height:100%; width:100%; cursor:pointer;}
+
+.overlayMacFFBGHack {background: url(/common/redesign-img/lightbox/macFFBgHack.png) repeat;}
+.overlayBG {background-color:#000; filter:alpha(opacity=75); -moz-opacity: 0.75; opacity: 0.75;}
+
+#lightbox{position:fixed; z-index:2000; text-align:left;}
+#lb-hdr-left-bdr{background:url(/common/redesign-img/lightbox/lightbox-hdr.png) top left no-repeat; padding:0 0 0 10px; height:45px;}
+#lb-hdr-right-bdr{background:url(/common/redesign-img/lightbox/lightbox-hdr.png) top right no-repeat; padding:0 10px 0 0; height:45px;}
+#lb-hdr-content{font-size:1.5em; color:#FFF; padding:15px 0 0 15px; float:left; display:inline; }
+#lb-close-btn{width:16px; height:16px; background:url(/common/redesign-img/lightbox/btn-close.gif) top left no-repeat; float:right; display:inline; margin:15px 15px 0 0; cursor:pointer;}
+#lb-btm-bdr{border-bottom:5px solid #999; border-left:5px solid #999; border-right:5px solid #999; background:#FFF;}
+#lb-content{padding:15px;}
+
+.image-loading{background:#FFF url(/common/redesign-img/lightbox/ajax-loader.gif) center center no-repeat !important;}
+/* End Lightbox */
+
+
+
+/* Start Table layouts */
+.datatable{ border:0 none; border-collapse:collapse; border-bottom:2px solid #999999; width:100%; margin:0 0 10px 0;}
+.datatable tr th{background:#e2eef0; border-bottom:2px solid #999999; font-weight:bold; text-align:left; vertical-align:top; padding:6px 15px; font-size:1.2em; color:#333333 !important;}
+.datatable tr th.white-bg{background:none transparent; border-bottom:0 none; }
+.datatable tr th.topleft{background:url(../redesign-img/tables/datatable-sprite.gif) no-repeat top left;}
+.datatable tr th.topright{background:url(../redesign-img/tables/datatable-sprite.gif) no-repeat top right;} 
+.datatable tr td{padding:6px 15px; vertical-align:middle; text-align:left; font-size:1.2em; color:#333333 !important;}
+.datatable tr td input {font-size:0.8em !important;}
+.datatable tr td a {font-size:1em !important;}
+.datatable tr th.dotted-border, .datatable tr td.dotted-border{background:url(../redesign-img/panels/bg_dotted_border.gif) repeat-x 0 100%;}
+.datatable tr.alt{background:#F8F8F8;}
+/* End table layouts */
+
+
+/* Start Combi price plan table */
+.datatable th.monthly-cost, .datatable th.plan-name, .datatable th.phone-cost, .datatable td.monthly-cost, .datatable td.plan-name, .datatable td.phone-cost{width:90px;padding:10px 0;}
+.datatable th.plan-name, .datatable td.plan-name{width:105px;padding-right:10px;}
+.datatable th.plan-Length, .datatable td.plan-Length{width:105px;padding:10px 0;}
+.datatable th.minutes, .datatable td.minutes{width:80px;padding:10px 0;}
+.datatable th.texts, .datatable td.texts{width:160px;padding:10px 0;}
+.datatable th.internet, .datatable td.internet{width:120px;padding:10px 0;}
+.datatable th.what-you-get{width:400px; border-bottom:1px solid #666;padding:10px 0;}
+.datatable td.selectBtn{width:130px;}
+.datatable td.ways-to-use{width:200px;padding-left:5px;}
+.datatable td.phone-Cost, .datatable th.phone-cost{width:60px;padding:10px 0 10px 10px;}
+.datatable td.flext-Credit{width:200px;}
+.datatable td.width-15percent{width:15%;}
+.datatable td.width-20percent{width:20%;}
+.datatable td.width-25percent{width:25%;}
+.datatable td.width-30percent{width:30%;}
+.datatable td.width-35percent{width:35%;}
+.datatable td.width-40percent{width:40%;}
+.datatable td.width-45percent{width:45%;}
+.datatable td.width-50percent{width:50%;}
+.flextdatatable {
+margin-top:20px;
+}
+
+
+/* End Combi price plan table */
+
+/* Start Legal layouts */
+.legal-stuff {
+padding-left:20px;
+line-height:1.2em;
+margin-top:20px;
+background:url(/common/redesign-img/legal_stuff_icon.gif) 0 0 no-repeat;
+}
+.legal-stuff a {
+text-decoration:none;
+}
+/* End Legal layouts */

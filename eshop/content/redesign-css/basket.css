@@ -1,0 +1,42 @@
+#container {background:none;}
+
+#basket-table {
+	border-bottom:none; 
+	margin-bottom:0;
+}
+#basket-table.datatable tr td.totals-cell {
+	border-bottom:2px solid #999999;
+	background-color: #F8F8F8;
+}
+
+.strong-text {	font-weight:bold;}
+
+.spec-list span { display:block; }
+
+#rd-content .highlight { color:#e20074!important;}	
+
+#basket-table.datatable tr td {
+	vertical-align:top;
+	padding:8px 15px;
+}
+
+#basket-table.datatable tr th { padding:8px 15px;}	
+	
+#basket-table .text-right{text-align:right;}	
+	
+#basket-table .basket-form { margin-top:8px; }	
+
+#basket-table .basket-form select {
+	float:left; 
+	width:40px;
+}
+	
+.basket-info-container { width:616px; float:right; margin:20px 0; display:block;
+}	
+
+.dotted-border-bottom.buttons-container { padding-bottom:20px; }
+
+.basket-info-container h3.section { margin-top:12px;}
+
+#basket-table .tooltip-left { margin-right:5px;}
+#basket-table .tooltip-right { margin-left:5px; float:left;}

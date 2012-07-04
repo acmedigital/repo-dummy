@@ -1,0 +1,865 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Left hand nav 2-col content</title>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	
+	<link href="../../../../common/redesign-css/templates.css" rel="stylesheet" type="text/css" />
+	<link href="../../../../common/redesign-css/buttons.css" rel="stylesheet" type="text/css" />
+	<link href="../../../../common/redesign-css/typography.css" rel="stylesheet" type="text/css" />
+	<link href="../../../../common/redesign-css/panels.css" rel="stylesheet" type="text/css" />
+    
+    <!-- page level css -->
+    <link href="../../../../eshop/content/redesign-css/eshop_landing.css" rel="stylesheet" type="text/css">
+	 
+	 <script type="text/javascript" src="../../../../common/redesign-js/lib/mootools-1.2.3-core-nc.js"></script>
+		<script type="text/javascript" src="../../../../common/redesign-js/lib/mootools-1.2.3.1-more.js"></script>
+		<script type="text/javascript" src="../../../../common/redesign-js/addons/mootools.ui-components.js"></script>
+
+	
+	<!--[if gte IE 6]>  
+		<style type="text/css">@import '../../../common/redesign-css/ie6.css';</style>  
+	<![endif]--> 
+	
+	<!--[if gte IE 7]>  
+		<style type="text/css">@import 'common/redesign-css/ie7.css';</style>  
+	<![endif]--> 
+	
+		<style type="text/css">
+		/*#rd-wrapper{position:relative;}*/
+		
+		div#basket-container{ position:absolute; top:146px; right:5px; z-index:10001; width:245px; overflow:hidden; height:0;}
+		
+		iframe.basket {border:0 none;}
+		
+	</style>
+	
+</head>
+
+<body id="lhn-2col-content">
+<div id="rd-wrapper">
+    <div id="container">
+        <div id="leftwrap">
+            
+			
+			 <div id="rd-content">
+				 <div class="hero-bg">	
+					<div class="hero-bg-inner">
+					<!-- stuff goes here -->
+					</div>
+				</div>  
+				
+				<!-- start basket content -->
+	<div id="basket-container">
+		<iframe src="fakebasketiframe.html" class="basket" id="basket-iframe" height="0" width="245" frameborder="no"></iframe>
+	</div>	
+	<!-- end basket content -->
+				
+				<div  class="rd-content-inner">
+             	 
+   
+					
+	    
+				    
+    
+			
+			
+			
+<style type="text/css">
+
+.package {
+	width:203px;
+	margin:0 0 0 0;
+	padding:0 20px 10px;	
+	border-bottom:2px #ccc solid; 
+	}
+	
+	#rd-content .package h3.section {
+		margin-top:0px;
+		margin-bottom:9px;
+		padding-top:10px;
+	}
+	
+	#rd-basket {
+		width:245px;
+		float:left;
+	}
+	
+	#rd-basket h3 {
+		color:#2D757E;
+		font-size:1.2em;	
+	}
+	
+	#rd-basket h3 a.remove {
+		display:block;
+		float:right;
+		font-size:.9em;
+		font-weight:normal;
+		*margin-top:-15px;
+	}
+	
+	#rd-basket .package .block { margin-bottom:10px; }
+	
+	#rd-basket .package .block h3.pkg-description {
+		color:#333;
+		font-weight:bold;
+		font-size:1.1em;
+		margin:0 0 4px 0;
+	}
+	
+	#rd-basket .package .block h3.pkg-description span {
+		font-weight:normal; 
+		padding-left:5px;
+	}
+	
+	#rd-basket .package .block h3.pkg-description span.add-to-package {
+		display:block;
+		padding-left:12px;
+	}
+	
+	#rd-basket .package-incomplete,
+	#rd-basket .package-incomplete a { color:#ed1c24!important;}
+	
+	#rd-basket .panel table td {
+		padding-left:13px;
+		padding-bottom:2px;
+		font-size:1.1em;
+	}
+	
+	#rd-basket .panel table td.cost {
+		text-align:right;
+		font-weight:bold;
+	}
+	
+	#rd-basket .panel table td.cost.discount { color:#2D757E; }
+
+	
+	.delivery-details{
+		background:#f2f2f2; 
+		border-bottom:none;
+		padding-bottom:15px;
+		margin-bottom:0;
+	}
+	
+	#rd-content .delivery-details table td,
+	#rd-content .package-total table td {
+		padding-left:0;
+		font-weight:bold;
+		font-size:1.2em;
+	}
+	
+	#rd-content .delivery-details table td.cost { color:#e20074; }
+	
+	.buttons-foot {
+		background-color:#f2f2f2;
+		padding: 0 0 10px 20px;
+	}
+	
+	#rd-basket .buttons-foot p { 	font-size:1.1em; }
+	
+	#rd-basket .buttons-foot a.rdbtn { margin-bottom:15px; }
+	
+	.package-total { 
+		background:#f2f2f2; border-bottom:2px #ccc solid; padding-top:10px; padding-bottom:10px;
+	}
+	
+	#rd-content .package-total table td.cost { color:#2d757e; }
+	
+	#rd-basket p.package-error {
+		color:#ed1c24;
+		font-size:1.1em;
+		margin-bottom:9px;
+	}
+	
+	.delivery-charge {
+		margin-bottom:10px; border-bottom:1px #ccc dotted;
+	}
+	
+	#rd-basket .delivery-charge tr td { padding-bottom:10px;}
+	
+	#rd-basket .panel-basket .inner.basket-inner {
+		margin:0;padding:0;
+	}
+	
+	
+	
+	#rd-basket .panel { margin-bottom:20px; }
+	#rd-basket .panel .panel-header .inner h3 { padding:9px 6px; font-size:1.4em; font-weight:bold; }	
+	#rd-basket .panel .panel-content { padding:12px 16px; }
+	#rd-basket .panel .panel-content .inner { min-height:0; height:auto; }
+	
+	/*#rd-basket .panel-basket h4,*/
+/*	#rd-basket .panel-basket p { margin:0; font-size:1em; }*/
+	/*#rd-basket .panel-basket .basket-empty {font-size: 1.2em; padding: 10px;}*/
+	#rd-basket .panel-basket .panel-content { padding:0; }
+	/*#rd-basket .panel-basket .panel-content .inner { padding-top:12px; }*/
+	#rd-basket .panel-basket table { width:100%; }
+	/*#rd-basket .panel-basket table td { font-size:1.1em; padding:0 0 10px 16px; vertical-align:top; }*/
+	/*#rd-basket .panel-basket table td.price { padding:0 16px 10px 0; font-weight:bold; text-align:right; }*/
+	/*#rd-basket .panel-basket table td.phone { text-align:center; }*/
+	#rd-basket .panel-basket table td.package { padding:0 0 10px 0; }
+	/*#rd-basket .panel-basket table tr.total td { background:#f2f2f2; }*/
+
+
+</style>
+			
+			<div id="rd-basket">
+				<div class="panel panel-grey-magenta-border panel-border panel-basket" style="border: 0;">
+					<div class="panel-header">
+						<div class="inner">
+							<h3>Your basket</h3>
+						</div>
+					</div>
+			
+					<div class="panel-content">
+						<div class="inner basket-inner">
+							<div class="package">
+								<div class="block">
+									<h3 class="section current">Package 1<a href="/shop/mobile-phone-shop/" target="_parent" onclick="setCookieToRemovePackage(1, false)" class="remove">x Remove</a></h3>
+								</div>
+								<div class="block ">
+									<h3 class="pkg-description">1. Phone<span>| <a href="#">change</a></span></h3>
+									<table summary="your product description">
+										<tr>
+											<td>Nokia 5800 Chrome</td>
+											<td class="cost">&pound;97.87</td>
+										</tr>
+									</table>
+								</div>
+								<div class="block ">
+									<h3 class="pkg-description">2. Your price plan<span>| <a href="#">change</a></span></h3>			
+									<table summary="your product description">
+										<tr>
+											<td>Combi 15 (18 months)</td>
+											<td class="cost">&pound;13.50</td>
+										</tr>
+										<tr>
+											<td>MRC discount 1</td>
+											<td class="cost discount">-&pound;5.00</td>
+										</tr>
+										<tr>
+											<td>MRC discount 2</td>
+											<td class="cost discount">-&pound;1.50</td>
+										</tr>
+									</table>
+								</div>
+								<div class="block">
+									<h3 class="pkg-description">3. Optional extras<span class="add-to-package"><a href="#">Add extras</a></span></h3>
+								</div>
+							</div><!-- end package -->
+							
+							<div class="package delivery-details">
+								<h3 class="section">Total</h3>
+								<table class="delivery-charge">
+									<tr summary="Your delivery cost">
+										<td>Delivery charges</td>
+										<td class="cost">Free</td>
+									</tr>
+								</table>	
+								
+								<table summary="Your delivery cost">
+									<tr>
+										<td>To pay now</td>
+										<td class="cost">&pound;24.99</td>
+									</tr>
+									<tr>
+										<td>To pay monthly</td>
+										<td class="cost">&pound;43.50</td>
+									</tr>
+								</table>	
+							
+							</div>
+							
+							<div class="buttons-foot">
+								<a href="#" class="rdbtn btn-magenta">
+									<span class="btn-corner-br"><span class="btn-corner-bl"><span class="btn-corner-tr"><span class="btn-corner-tl">
+										<span class="padding">View detailed basket and checkout</span>
+									</span></span></span></span>
+								</a>
+								<div class="clear"></div>
+								<p><a href="#">x Empty basket</a></p>
+								
+
+							
+							</div>
+					</div>
+				</div> <!-- end panel content -->
+			</div>
+			</div> <!-- end rightbar -->
+
+			<div style="width:10px; height:1px; float:left;">&nbsp;</div>
+			
+			<div id="rd-basket">
+				<div class="panel panel-grey-magenta-border panel-border panel-basket" style="border: 0;">
+					<div class="panel-header">
+						<div class="inner">
+							<h3>Your basket</h3>
+						</div>
+					</div>
+			
+					<div class="panel-content">
+						<div class="inner basket-inner">
+							<div class="package">
+								<div class="block">
+									<h3 class="section current">Package 1<a href="/shop/mobile-phone-shop/" target="_parent" onclick="setCookieToRemovePackage(1, false)" class="remove">x Remove</a></h3>
+								</div>
+								<div class="block ">
+									<h3 class="pkg-description">1. Phone</h3>
+									<table summary="your product description">
+										<tr>
+											<td>Nokia 5800 Chrome</td>
+											<td class="cost">&pound;97.87</td>
+										</tr>
+									</table>
+								</div>
+								<div class="block ">
+									<h3 class="pkg-description">2. Your price plan</h3>			
+									<table summary="your product description">
+										<tr>
+											<td>Combi 15 (18 months)</td>
+											<td class="cost">&pound;13.50</td>
+										</tr>
+										<tr>
+											<td>MRC discount 1</td>
+											<td class="cost discount">-&pound;5.00</td>
+										</tr>
+										<tr>
+											<td>MRC discount 2</td>
+											<td class="cost discount">-&pound;1.50</td>
+										</tr>
+									</table>
+								</div>
+								<div class="block">
+									<h3 class="pkg-description">3. Optional extras</h3>
+								</div>
+							</div><!-- end package -->
+							
+							<div class="package">
+								<div class="block">
+									<h3 class="section current">Package 1<a href="/shop/mobile-phone-shop/" target="_parent" onclick="setCookieToRemovePackage(1, false)" class="remove">x Remove</a></h3>
+								</div>
+								<div class="block ">
+									<h3 class="pkg-description">1. Phone</h3>
+									<table summary="your product description">
+										<tr>
+											<td>Nokia 5800 Chrome</td>
+											<td class="cost">&pound;97.87</td>
+										</tr>
+									</table>
+								</div>
+								<div class="block ">
+									<h3 class="pkg-description">2. Your price plan</h3>			
+									<table summary="your product description">
+										<tr>
+											<td>Combi 15 (18 months)</td>
+											<td class="cost">&pound;13.50</td>
+										</tr>
+										<tr>
+											<td>MRC discount 1</td>
+											<td class="cost discount">-&pound;5.00</td>
+										</tr>
+										<tr>
+											<td>MRC discount 2</td>
+											<td class="cost discount">-&pound;1.50</td>
+										</tr>
+									</table>
+								</div>
+								<div class="block">
+									<h3 class="pkg-description">3. Optional extras</h3>
+								</div>
+							</div><!-- end package -->
+							
+							<div class="package delivery-details">
+								<h3 class="section">Total</h3>
+								<table class="delivery-charge">
+									<tr summary="Your delivery cost">
+										<td>Delivery charges</td>
+										<td class="cost">Free</td>
+									</tr>
+								</table>	
+								
+								<table summary="Your delivery cost">
+									<tr>
+										<td>To pay now</td>
+										<td class="cost">&pound;24.99</td>
+									</tr>
+									<tr>
+										<td>To pay monthly</td>
+										<td class="cost">&pound;43.50</td>
+									</tr>
+								</table>	
+							
+							</div>
+							
+							<div class="buttons-foot">
+								<a href="#" class="rdbtn btn-magenta">
+									<span class="btn-corner-br"><span class="btn-corner-bl"><span class="btn-corner-tr"><span class="btn-corner-tl">
+										<span class="padding">View detailed basket and checkout</span>
+									</span></span></span></span>
+								</a>
+								<div class="clear"></div>
+								<p><a href="#">x Empty basket</a></p>
+								
+
+							
+							</div>
+					</div>
+				</div> <!-- end panel content -->
+			</div>
+			</div> <!-- end rightbar -->			
+			
+			
+			
+			
+			<!-- 3rd variation -->
+				<div style="width:10px; height:1px; float:left;">&nbsp;</div>
+			
+			<div id="rd-basket">
+				<div class="panel panel-grey-magenta-border panel-border panel-basket" style="border: 0;">
+					<div class="panel-header">
+						<div class="inner">
+							<h3>Your basket</h3>
+						</div>
+					</div>
+			
+					<div class="panel-content">
+						<div class="inner basket-inner">
+							<div class="package">
+								<div class="block">
+									<h3 class="section current">Package 1<a href="/shop/mobile-phone-shop/" target="_parent" onclick="setCookieToRemovePackage(1, false)" class="remove">x Remove</a></h3>
+								</div>
+								<div class="block ">
+									<h3 class="pkg-description">1. Phone</h3>
+									<table summary="your product description">
+										<tr>
+											<td>Nokia 5800 Chrome</td>
+											<td class="cost">&pound;97.87</td>
+										</tr>
+									</table>
+								</div>
+								<div class="block ">
+									<h3 class="pkg-description">2. Your price plan</h3>			
+									<table summary="your product description">
+										<tr>
+											<td>Combi 15 (18 months)</td>
+											<td class="cost">&pound;13.50</td>
+										</tr>
+										<tr>
+											<td>MRC discount 1</td>
+											<td class="cost discount">-&pound;5.00</td>
+										</tr>
+										<tr>
+											<td>MRC discount 2</td>
+											<td class="cost discount">-&pound;1.50</td>
+										</tr>
+									</table>
+								</div>
+								<div class="block">
+									<h3 class="pkg-description">3. Optional extras</h3>
+								</div>
+							</div><!-- end package -->
+							
+							<div class="package package-total">								
+								<table summary="Your delivery cost">
+									<tr>
+										<td>To pay now</td>
+										<td class="cost">&pound;24.99</td>
+									</tr>
+									<tr>
+										<td>To pay monthly</td>
+										<td class="cost">&pound;43.50</td>
+									</tr>
+								</table>	
+							
+							</div>
+							
+							
+							<div class="package ">
+								<div class="block">
+									<h3 class="section current">Package 1<a href="/shop/mobile-phone-shop/" target="_parent" onclick="setCookieToRemovePackage(1, false)" class="remove">x Remove</a></h3>
+								</div>
+								<div class="block ">
+									<h3 class="pkg-description">1. Phone</h3>
+									<table summary="your product description">
+										<tr>
+											<td>Nokia 5800 Chrome</td>
+											<td class="cost">&pound;97.87</td>
+										</tr>
+									</table>
+								</div>
+								<div class="block ">
+									<h3 class="pkg-description">2. Your price plan</h3>			
+									<table summary="your product description">
+										<tr>
+											<td>Combi 15 (18 months)</td>
+											<td class="cost">&pound;13.50</td>
+										</tr>
+										<tr>
+											<td>MRC discount 1</td>
+											<td class="cost discount">-&pound;5.00</td>
+										</tr>
+										<tr>
+											<td>MRC discount 2</td>
+											<td class="cost discount">-&pound;1.50</td>
+										</tr>
+									</table>
+								</div>
+								<div class="block">
+									<h3 class="pkg-description">3. Optional extras</h3>
+								</div>
+							</div><!-- end package -->
+							
+							<div class="package package-total">								
+								<table summary="Your delivery cost">
+									<tr>
+										<td>To pay now</td>
+										<td class="cost">&pound;24.99</td>
+									</tr>
+									<tr>
+										<td>To pay monthly</td>
+										<td class="cost">&pound;43.50</td>
+									</tr>
+								</table>	
+							
+							</div>
+							
+							
+							<div class="package delivery-details">
+								<h3 class="section">Total</h3>
+								<table class="delivery-charge">
+									<tr summary="Your delivery cost">
+										<td>Delivery charges</td>
+										<td class="cost">Free</td>
+									</tr>
+								</table>	
+								
+								<table summary="Your delivery cost">
+									<tr>
+										<td>To pay now</td>
+										<td class="cost">&pound;24.99</td>
+									</tr>
+									<tr>
+										<td>To pay monthly</td>
+										<td class="cost">&pound;43.50</td>
+									</tr>
+								</table>	
+							
+							</div>
+							
+							<div class="buttons-foot">
+								<a href="#" class="rdbtn btn-magenta">
+									<span class="btn-corner-br"><span class="btn-corner-bl"><span class="btn-corner-tr"><span class="btn-corner-tl">
+										<span class="padding">View detailed basket and checkout</span>
+									</span></span></span></span>
+								</a>
+								<div class="clear"></div>
+								<p><a href="#">x Empty basket</a></p>
+								
+
+							
+							</div>
+					</div>
+				</div> <!-- end panel content -->
+			</div>
+			</div> <!-- end rightbar -->	
+			
+			
+			
+			
+			<div style="width:10px; height:1px; float:left;">&nbsp;</div>
+			
+			
+			<div id="rd-basket">
+				<div class="panel panel-grey-magenta-border panel-border panel-basket" style="border: 0;">
+					<div class="panel-header">
+						<div class="inner">
+							<h3>Your basket</h3>
+						</div>
+					</div>
+			
+					<div class="panel-content">
+						<div class="inner">
+							<div class="package">
+								<div class="block">
+									<h3 class="section current">Package 1<a href="/shop/mobile-phone-shop/" target="_parent" onclick="setCookieToRemovePackage(1, false)" class="remove">x Remove</a></h3>
+								</div>
+								<div class="block ">
+									
+									<p class="package-error">Package is incomplete</p>
+									<h3 class="pkg-description">1. Phone<span>| <a href="#">change</a></span></h3>
+									<table summary="your product description">
+										<tr>
+											<td>Nokia 5800 Chrome</td>
+											<td class="cost">&pound;97.87</td>
+										</tr>
+									</table>
+								</div>
+								<div class="block ">
+									<h3 class="pkg-description package-incomplete">2. Your price plan<span class="add-to-package"><a href="#">Select price plan</a></span></h3>			
+								</div>
+							</div><!-- end package -->
+							
+							<div class="package delivery-details">
+								<h3 class="section">Total</h3>
+								<table class="delivery-charge">
+									<tr summary="Your delivery cost">
+										<td>Delivery charges</td>
+										<td class="cost">Free</td>
+									</tr>
+								</table>	
+								
+								<table summary="Your delivery cost">
+									<tr>
+										<td>To pay now</td>
+										<td class="cost">&pound;24.99</td>
+									</tr>
+									<tr>
+										<td>To pay monthly</td>
+										<td class="cost">&pound;43.50</td>
+									</tr>
+								</table>	
+							
+							</div>
+							
+							<div class="buttons-foot">
+								
+									<a href="#" class="rdbtn btn-magenta">
+										<span class="btn-corner-br"><span class="btn-corner-bl"><span class="btn-corner-tr"><span class="btn-corner-tl">
+											<span class="padding">View detailed basket</span>
+										</span></span></span></span>
+									</a>
+								
+								<div class="clear"></div>
+								<p><a href="#">x Empty basket</a></p>
+								
+
+							
+							</div>
+					</div>
+				</div> <!-- end panel content -->
+			</div>
+			</div> <!-- end rightbar -->
+
+			<div style="width:10px; height:1px; float:left;">&nbsp;</div>
+			
+			
+			
+			</div> <!-- end rd-content-inner -->
+			
+        </div>
+       <!-- /end rd-content-->
+		 
+		<div id="secondary-nav">
+
+			<h2 class="offscreen">Phones and plans, sub-navigation paymonthly.deals</h2>
+		
+				<ul>
+			   	<li class="primary-selected"><a onclick="javascript:clearCookie();" title="Pay monthly" href="/shop/pay-monthly/deals/">Pay monthly</a>
+		         	<ul>
+							<li class="secondary-selected"><a onclick="javascript:clearCookie();" title="Pay monthly deals" href="/shop/pay-monthly/deals/">Pay monthly deals</a></li>
+							<li><a onclick="javascript:clearCookie();" title="Pay monthly phones" href="/shop/mobile-phones/phones/pay-monthly/all/1/">Pay monthly phones</a></li>
+							<li><a onclick="javascript:clearCookie();" title="Pay monthly plans" href="/shop/mobile-phones/price-plans/pay-monthly/combi/plans/">Pay monthly plans</a></li>
+						</ul>
+					</li>
+					
+					<li><a onclick="javascript:clearCookie();" title="Pay as you go" href="/shop/pay-as-you-go/deals/">Pay as you go</a></li>
+					<li><a onclick="javascript:clearCookie();" title="Phones" href="/shop/mobile-phones/phones/">Phones</a></li><li><a onclick="javascript:clearCookie();" title="Mobile Broadband" href="/shop/mobile-broadband/">Mobile Broadband</a></li>
+					<li><a onclick="javascript:clearCookie();" title="SIM only" href="/shop/free-pay-as-you-go-sim-cards/">SIM only</a></li>
+					<li><a onclick="javascript:clearCookie();" title="Looking to upgrade" href="/shop/mobile-phones/upgrade/">Looking to upgrade</a></li>
+					<li><a onclick="javascript:clearCookie();" title="Mobile downloads" href="/entertainment/whats-new/">Mobile downloads</a></li>
+					<li><a onclick="javascript:clearCookie();" title="Accessories" href="/shop/mobile-phones/accessory/">Accessories</a></li>
+				</ul>
+		
+		</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+            
+            <div class="clear"></div>
+        </div><!-- /leftwrap -->
+        <div class="clear"></div>
+    	<div id="rd-header">
+        	<div id="utility-bar">
+				<div id="customer-type-tabs">
+					<ul>
+						<li class="current"><a href="/">Personal</a></li>
+						<li class="after"><a href="/business/">Business</a></li>
+					</ul>
+				</div>
+				<div id="search">
+                	<ul id="top-utility" class="float-left">
+                    	<li class="first"><a href="/store-finder/">Store locator</a></li>
+                        <li><a href="/services/help-and-support/suppport-contact-us/">Contact us</a></li>
+                    </ul>
+						  
+						  <form onsubmit="return searchboxsubmit();" method="post" class="form float-left" name="search" action="/search/">
+								<fieldset class="label-bold">
+									<input type="text" onblur="if (this.value=='') this.value='Search site for...'" onclick="if (this.value=='Search site for...') this.value=''" maxlength="200" value="Search site for..." name="query" title="Search the site dropdown" class="search-box" id="site-search"/>
+		                   			<input type="hidden" value="false" name="defaultTextSubmitted" id="defaultTextSubmitted"/>
+										<span class="rdbtn btn-white btn-input">
+		                                    <span class="btn-corner-br"><span class="btn-corner-bl"><span class="btn-corner-tr"><span class="btn-corner-tl">
+		                                        <input type="submit" class="padding" value="Search"/>
+		                                    </span></span></span></span>
+		                                </span>								
+								</fieldset>
+							</form>
+				</div><!-- /search -->
+				<div class="clear"></div>
+			</div><!-- /utility-bar -->
+			<div id="logo-bar">
+				<div id="logo-bg">
+					<a href="/"><img src="../../../../common/redesign-img/templates/tmobile_logo.gif" class="logo" width="299" height="49" alt="T-Mobile logo" /></a>
+				
+					
+					<style type="text/css">
+					.primary-link-header  {
+					background:url(../../../../common/redesign-img/icons/link_arrow_white.gif) 0 .3em no-repeat;
+					color:#fff;
+					display:inline-block;
+					padding-left:10px;
+					line-height:1.2em;
+					font-size:1.2em;
+					margin-left:20px;
+					}
+
+
+					.primary-link-header:link,
+					.primary-link-header:visited {
+					color:#fff;
+					}		
+					
+					#basket_btn {
+						margin-top:3px; 
+						width:245px;
+						margin-right:5px;
+					}		
+					
+					#basket_btn h3 { 
+						color:#e20074; padding:9px 6px; font-size:1.4em; font-weight:bold;
+					}
+					
+					#basket_btn h3 a {
+						font-weight:normal;
+						font-size: .8em;
+					}
+					
+				
+					</style>
+					
+					
+					<div id="mtm-btn" class="float-right" style="margin-top:10px;">
+	                    <div class="action float-left register-button">
+							<a class="primary-link-header" href="#">Register</a>
+							<a class="primary-link-header" href="#">Log in</a>
+	                        
+	                    </div>
+                    
+						  
+						
+                    <div class="clear"></div>
+                </div><!-- /mtm-btrn -->
+				
+				
+				</div>
+				
+
+				
+				
+				<div class="clear"></div>
+				<div id="primary-navigation">
+                    <h2 class="offscreen">Main site navigation here</h2>
+					<ul id="nav">
+						<li><a href="/">Home</a></li>
+						<li class="current"><a href="/shop/mobile-phone-shop/">Shop</a></li>
+						<li><a href="/services/">Services</a></li>
+						<li><a href="http://support.t-mobile.co.uk/help-and-support/">Support</a></li>
+						<li><a href="/service/your-account/private/home/">My T-Mobile</a></li>
+					</ul>
+				</div>
+				
+				<div class="panel panel-grey-magenta-border panel-border panel-basket float-right" id="basket_btn">
+					<div class="panel-header">
+						<div class="inner">
+							<h3>Your basket<a href="#" class="loading float-right">Show</a></h3>
+						</div>
+					</div>
+				</div>
+
+                
+				<div class="clear"></div>
+			</div><!-- /logo-bar -->
+        </div><!-- /header -->
+    </div><!-- / container -->
+    
+    <div class="clear"></div>
+		<div id="rd-footer">
+        	<div id="footer-utility">
+				<ul class="top-line">
+					<li class="first"><a href="/services/about-t-mobile/">About T-Mobile</a></li>
+					<li><a href="/services/careers/">Careers</a></li>
+					<li><a href="/services/link-to-us/">Affiliates</a></li>
+					<li><a href="/store-finder/">Store finder</a></li>
+					<li><a href="/services/help-and-support/suppport-contact-us/">Contact us</a></li>
+					<li><a href="/sitemap/">Sitemap</a></li>
+					<li><a href="/services/disabled-customers/">Disabled customers</a></li>
+				</ul>
+				<ul class="shop-links-top-line">
+                <li class="first"><a href="/shop/mobile-phone-shop/">Mobile shop</a></li>
+                <li><a href="/shop/mobile-phones/phones/">Mobile phones</a></li>
+                <li><a href="/shop/mobile-phones/phones/pay-monthly/all/all/">Pay monthly phones</a></li>            
+                <li><a href="/shop/mobile-phones/phones/pay-as-you-go/all/all/">Pay as you go phones</a></li>
+                <li><a href="/shop/mobile-phones/whats-hot/">Latest phones</a></li>            
+                <li><a href="/shop/pay-monthly/deals/">Pay monthly deals</a></li>            
+                <li><a href="/shop/pay-as-you-go/deals/">Pay as you go deals</a></li>
+            </ul>
+				<ul class="shop-links-bottom-line">
+                <li class="first"><a href="/shop/mobile-broadband/">Mobile broadband</a></li>
+                <li><a href="/shop/sim-only/">SIM only</a></li>            
+                <li><a href="/shop/free-pay-as-you-go-sim-cards/">Free SIM cards</a></li>                                               
+                <li><a href="/shop/mobile-phones/upgrade/">Upgrades</a></li>         
+                <li><a href="/shop/mobile-phones/phone-insurance/">Phone insurance</a></li>                        
+                <li><a onclick="return popUp('/shop/popup/free-next-day-delivery/', 650, 400)" href="/shop/popup/free-next-day-delivery/">Free mobile delivery</a></li>
+            </ul>
+				<ul class="bottom-line">
+                <li class="first"><a target="_self" href="/services/privacy/">Privacy</a></li>
+                <li><a target="_self" href="/services/terms-and-conditions/">Terms & conditions</a></li>
+                <li><a target="_self" href="/services/copyright-statement/">&copy; 2009 T-Mobile (UK) Ltd</a></li>
+            </ul>
+			</div>
+    <div id="international-countries">
+        <div id="countries">
+            <ul id="international">
+                <li class="usa"><a href="http://www.t-mobile.com/">T-Mobile (USA)</a></li>
+                <li class="germany"><a href="http://www.t-mobile.de/">T-Mobile (Germany)</a></li>
+                <li class="czech"><a href="http://www.t-mobile.cz/">T-Mobile (Czech)</a></li>
+                <li class="austria"><a href="http://www.t-mobile.at/">T-Mobile (Austria)</a></li>						
+            </ul>
+                <form name="countries" action="">
+                    <select size="1" name="sites" class="footer-select">
+                        <option selected="selected">More international sites</option>
+                        <option value="http://www.t-mobile.hr/">Croatia</option>
+                        <option value="http://www.t-mobile.nl/">Netherlands</option>
+                        <option value="http://www.t-mobile.hu/">Hungary</option>
+                        <option value="http://www.t-mobile.sk/">Slovak Republic</option>
+                        <option value="http://www.t-mobile.com.mk/">Macedonia</option>
+                        <option value="http://www.t-mobile.me/">Montenegro</option>
+                    </select>
+                </form>
+                <input class="footer-small-btn" name="go"	type="button" value="Go" onclick="openURL()" />
+        </div><!-- /countries -->
+        <div class="clear"></div>
+    </div><!-- /international-countries -->
+        </div><!-- /footer -->
+</div><!-- /wrapper -->
+</body>
+</html> 

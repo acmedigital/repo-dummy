@@ -1,0 +1,91 @@
+/* common
+---------------------------------------------- */
+.rdbtn { position:relative; float:left; top:4px; left:3px; margin:0 10px 3px 0; font-size:1.2em; text-decoration:none !important; border-style:none; }
+li .rdbtn { font-size:1em; }
+.rdbtn:hover { text-decoration:underline !important; }
+.rdbtn span { display:block; position:relative;}
+.rdbtn span span { left:-3px;}
+.rdbtn span span span { top:-6px; left:3px;}
+.rdbtn span span span span { left:-3px; top:0;}
+.rdbtn .padding { position:relative; top:2px; display:block; padding:3px 4px 2px 2px; margin:0 0 0 10px; text-decoration:none; }
+html[xmlns*=""] body:last-child .rdbtn .padding { padding:4px 4px 2px 2px; }  
+
+/* input button */
+.rdbtn input.padding { margin:0 0 1px 0; padding:2px 6px 1px 6px; display:block; position:relative; top:2px; left:2px; font-family:arial; font-size:1em; cursor:pointer; border:none; background:transparent; }
+* html .rdbtn input.padding { padding:2px 2px 0 2px; overflow:visible; width:auto; display:inline; }
+* html table .rdbtn input.padding { padding:2px 0 0 0; }
+/* webkit/safari specific */ html[xmlns*=""] body:last-child .rdbtn input.padding { padding:3px 6px 4px 6px; margin-bottom:3px; }
+
+/* colors
+---------------------------------------------- */
+.btn-magenta, .btn-magenta input { color:#fff !important; }
+.btn-magenta .btn-corner-tl { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 0 no-repeat; }
+.btn-magenta .btn-corner-tr { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% 0 no-repeat; }
+.btn-magenta .btn-corner-bl { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 -80px no-repeat; }
+.btn-magenta .btn-corner-br { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% -80px no-repeat; }
+
+.btn-black, .btn-black input { color:#fff !important; }
+.btn-black .btn-corner-tl { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 -120px no-repeat; }
+.btn-black .btn-corner-tr { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% -120px no-repeat; }
+.btn-black .btn-corner-bl { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 -200px no-repeat; }
+.btn-black .btn-corner-br { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% -200px no-repeat; }
+
+.btn-white, .btn-white input { color:#333 !important; }
+.btn-white .btn-corner-tl { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 -240px no-repeat; }
+.btn-white .btn-corner-tr { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% -240px no-repeat; }
+.btn-white .btn-corner-bl { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 -320px no-repeat; }
+.btn-white .btn-corner-br { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% -320px no-repeat; }
+
+.btn-white-highlight, .btn-white-highlight input { color:#e20074 !important; }
+.btn-white-highlight .btn-corner-tl { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 -240px no-repeat; }
+.btn-white-highlight .btn-corner-tr { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% -240px no-repeat; }
+.btn-white-highlight .btn-corner-bl { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 -320px no-repeat; }
+.btn-white-highlight .btn-corner-br { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% -320px no-repeat; }
+
+.btn-disabled, .btn-disabled input { color:#999 !important; }
+.btn-disabled:hover { text-decoration:none !important; cursor:default; }
+.btn-disabled input.padding { cursor:default; }
+.btn-disabled .btn-corner-tl { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 -360px no-repeat; }
+.btn-disabled .btn-corner-tr { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% -360px no-repeat; }
+.btn-disabled .btn-corner-bl { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 -440px no-repeat; }
+.btn-disabled .btn-corner-br { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% -440px no-repeat; }
+
+.btn-magenta-small, .btn-magenta-small input  { margin-bottom:0; font-size:1.1em; color:#fff !important; }
+.btn-magenta-small input.padding { top:1px; }
+.btn-magenta-small .padding { padding:2px 4px 1px 2px; }
+/* webkit/safari specific */ html[xmlns*=""] body:last-child .btn-magenta-small .padding { padding:3px 4px 2px 2px; margin-bottom:1px; }
+/* webkit/safari specific */ html[xmlns*=""] body:last-child .btn-magenta-small input.padding { padding:3px 6px 1px 4px; margin-bottom:1px; }  
+.btn-magenta-small .btn-corner-tl { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 0 no-repeat; }
+.btn-magenta-small .btn-corner-tr { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% 0 no-repeat; }
+.btn-magenta-small .btn-corner-bl { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 -84px no-repeat; }
+.btn-magenta-small .btn-corner-br { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% -84px no-repeat; }
+
+.btn-white-small, .btn-white-small input  { margin-bottom:0; font-size:1.1em; color:#333 !important; }
+.btn-white-small input.padding { top:1px; }
+.btn-white-small .padding { padding:2px 4px 1px 2px; }
+/* webkit/safari specific */ html[xmlns*=""] body:last-child .btn-white-small .padding { padding:3px 4px 2px 2px; margin-bottom:1px }
+/* webkit/safari specific */ html[xmlns*=""] body:last-child .btn-white-small input.padding { padding:3px 6px 1px 4px; margin-bottom:1px; }   
+.btn-white-small .btn-corner-tl { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 -240px no-repeat; }
+.btn-white-small .btn-corner-tr { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% -240px no-repeat; }
+.btn-white-small .btn-corner-bl { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 -324px no-repeat; }
+.btn-white-small .btn-corner-br { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% -324px no-repeat; }
+
+.btn-white-small-highlight, .btn-white-small-highlight input { margin-bottom:0; font-size:1.1em; color:#e20074 !important; }
+.btn-white-small-highlight input.padding { top:1px; }
+.btn-white-small-highlight .padding { padding:2px 4px 1px 2px; }
+/* webkit/safari specific */ html[xmlns*=""] body:last-child .btn-white-small-highlight .padding { padding:3px 4px 2px 2px; margin-bottom:1px }
+/* webkit/safari specific */ html[xmlns*=""] body:last-child .btn-white-small-highlight input.padding { padding:3px 6px 1px 4px; margin-bottom:1px; } 
+.btn-white-small-highlight .btn-corner-tl { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 -240px no-repeat; }
+.btn-white-small-highlight .btn-corner-tr { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% -240px no-repeat; }
+.btn-white-small-highlight .btn-corner-bl { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 -324px no-repeat; }
+.btn-white-small-highlight .btn-corner-br { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% -324px no-repeat; }
+
+
+/* used for large buttons on overview page */
+.btn-magenta .btn-corner-bl-lg { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 -65px no-repeat; }
+.btn-magenta .btn-corner-br-lg { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% -65px no-repeat; }
+
+.btn-black .btn-corner-bl-lg { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 0 -185px no-repeat; }
+.btn-black .btn-corner-br-lg { background:url(../../common/redesign-img/buttons/bg_buttons.gif) 100% -185px no-repeat; }
+
+
